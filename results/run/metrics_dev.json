@@ -1,0 +1,29 @@
+[
+  {
+    "strategy": "A",
+    "split": "dev",
+    "n": 15,
+    "hit1_count": 4,
+    "hit3_count": 10,
+    "hit1": 0.26666666666666666,
+    "hit3": 0.6666666666666666
+  },
+  {
+    "strategy": "B",
+    "split": "dev",
+    "n": 15,
+    "hit1_count": 8,
+    "hit3_count": 9,
+    "hit1": 0.5333333333333333,
+    "hit3": 0.6
+  },
+  {
+    "strategy": "C",
+    "split": "dev",
+    "n": 15,
+    "hit1_count": 8,
+    "hit3_count": 9,
+    "hit1": 0.5333333333333333,
+    "hit3": 0.6
+  }
+]

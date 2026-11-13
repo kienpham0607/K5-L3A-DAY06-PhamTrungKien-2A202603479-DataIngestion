@@ -1,0 +1,18 @@
+{
+  "provider": "local Sentence Transformers / CPU",
+  "api_cost_usd": 0,
+  "network_setup": [
+    {"action": "Download official PDFs", "initial_result": "Sandbox network connection denied", "resolution": "Retried with user-approved escalation; both files downloaded and checksummed."},
+    {"action": "Download real embedding model", "initial_result": "Sandbox WinError 10013", "resolution": "Retried with user-approved escalation; all model files downloaded. Printing the Unicode local path then raised cp1252 UnicodeEncodeError; inference succeeded from the downloaded snapshot with UTF-8 output."},
+    {"action": "Run pytest", "initial_result": "7 passed, 2 setup errors: sandbox denied Windows temporary directory access", "resolution": "User-approved escalation; 9 passed, recorded in results/tests.xml."}
+  ],
+  "pdf_inspection": {
+    "document_id": "traffic-law-part1", "page": 21,
+    "visual_finding": "Publisher imprint/contact block, raster-only. No traffic-law content. Excluded from all 81 counted content pages. Not a blank page; no OCR performed.",
+    "method": "Rendered physical PDF page with PyMuPDF and inspected visually by Codex AI."
+  },
+  "known_preprocessing_limitations": [
+    "Official digital signature annotation remains in extracted text on initial pages. This was noticed during post-test review; corpus/configuration were preserved and no test-guided cleanup was applied.",
+    "Legal clauses continuing across physical pages remain split to preserve simple page-level provenance."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "dev": true,
+    "test": true,
+    "chunks_A_identical": true,
+    "chunks_B_identical": true,
+    "same_dev_choice": true
+  },
+  "all_equal": true,
+  "replica_output": "artifacts\\runs\\reproduction",
+  "replica_selected_at_utc": "2026-11-13T14:14:10.146177+00:00",
+  "replica_embedding_cache_hits": {
+    "A": true,
+    "B": true,
+    "C": true
+  },
+  "note": "Declared replication after observing original test; no retuning, same frozen inputs. Not an independent new holdout. Original first-run metrics/timing preserved."
+}

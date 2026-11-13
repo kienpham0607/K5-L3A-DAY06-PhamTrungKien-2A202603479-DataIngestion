@@ -1,0 +1,16 @@
+﻿strategy,question_id,score,reason,reviewer,status
+A,Q16,1,"Rank 2 có 150 mét và cơ quan cần báo nhưng mở đầu bằng cấp và đặt, mất điều kiện không thể vào làn khẩn cấp và phần bật đèn; rank 1 nói xe ưu tiên, rank 3 nói tình huống khác.",Codex AI,ai_draft_pending_human
+A,Q17,2,"Rank 1 có tiêu đề Điều 26 và trọn quy định đèn cho xe cơ giới, xe máy chuyên dùng, xe thô sơ; truy được phần 2 trang 2.",Codex AI,ai_draft_pending_human
+A,Q18,2,"Rank 1 giữ Điều 64, đủ 10 giờ/ngày, 48 giờ/tuần, 04 giờ liên tục và dẫn chiếu Bộ luật Lao động.",Codex AI,ai_draft_pending_human
+A,Q19,2,"Rank 3 giữ trọn điểm b: ở lại đến khi Công an tới, đủ ba ngoại lệ và nơi trình báo; nguồn phần 2 trang 51.",Codex AI,ai_draft_pending_human
+A,Q20,2,Rank 1 có Điều 89 và khoản 1 đủ quy định giấy phép cũ tiếp tục dùng theo thời hạn trên giấy phép.,Codex AI,ai_draft_pending_human
+B,Q16,2,"Rank 3 giữ trọn khoản 2 về cao tốc, gồm điều kiện xe không thể vào làn khẩn cấp, bật đèn, khoảng cách 150 mét và cơ quan cần báo.",Codex AI,ai_draft_pending_human
+B,Q17,2,Rank 1 có tiêu đề hầm đường bộ và đủ loại đèn cho cả ba loại phương tiện.,Codex AI,ai_draft_pending_human
+B,Q18,2,"Rank 1 giữ trọn Điều 64, đủ các giới hạn ngày/tuần/liên tục và điều kiện lao động.",Codex AI,ai_draft_pending_human
+B,Q19,2,"Rank 1 giữ trọn ngoại lệ rời hiện trường và nghĩa vụ trình báo, có nguồn trang 51.",Codex AI,ai_draft_pending_human
+B,Q20,0,"Cả ba rank thuộc Chương IV: hết điểm, giấy phép quốc tế/hết hạn, cấp đổi. Không có quy định chuyển tiếp tại Điều 89 cho giấy phép cũ.",Codex AI,ai_draft_pending_human
+C,Q16,2,"Câu không filter; cùng B: rank 3 giữ đủ điều kiện sự cố, cảnh báo 150 mét, đèn khẩn cấp và báo cơ quan quản lý.",Codex AI,ai_draft_pending_human
+C,Q17,2,Câu không filter; cùng B: rank 1 giữ đủ quy tắc đèn trong hầm cho các loại xe.,Codex AI,ai_draft_pending_human
+C,Q18,2,Rank 1 giữ Điều 64 đủ mọi giới hạn; ba kết quả đều trong Chương IV theo phạm vi đầu vào.,Codex AI,ai_draft_pending_human
+C,Q19,2,"Rank 1 giữ đủ điểm b về ở lại, ngoại lệ và nơi trình báo; ba kết quả đều thuộc Chương VII.",Codex AI,ai_draft_pending_human
+C,Q20,2,"Rank 2 giữ Điều 89 và khoản 1 đúng trường hợp giấy phép cấp trước luật; rank 1 giúp xác định ngày hiệu lực, tất cả thuộc Chương IX.",Codex AI,ai_draft_pending_human

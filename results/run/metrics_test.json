@@ -1,0 +1,29 @@
+[
+  {
+    "strategy": "A",
+    "split": "test",
+    "n": 5,
+    "hit1_count": 3,
+    "hit3_count": 4,
+    "hit1": 0.6,
+    "hit3": 0.8
+  },
+  {
+    "strategy": "B",
+    "split": "test",
+    "n": 5,
+    "hit1_count": 3,
+    "hit3_count": 4,
+    "hit1": 0.6,
+    "hit3": 0.8
+  },
+  {
+    "strategy": "C",
+    "split": "test",
+    "n": 5,
+    "hit1_count": 3,
+    "hit3_count": 5,
+    "hit1": 0.6,
+    "hit3": 1.0
+  }
+]

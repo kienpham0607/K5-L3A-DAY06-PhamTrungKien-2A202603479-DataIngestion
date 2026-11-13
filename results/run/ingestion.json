@@ -1,0 +1,14 @@
+{
+  "content_pages": 81,
+  "segments": 89,
+  "characters": 164494,
+  "errors": [
+    {
+      "document_id": "traffic-law-part1",
+      "page": 21,
+      "status": "excluded_no_extractable_text",
+      "ocr": false
+    }
+  ],
+  "manifest_sha256": "1c54a37e098626943b75e432483679740ef738adbe02b06d435b2e2a49a293f0"
+}

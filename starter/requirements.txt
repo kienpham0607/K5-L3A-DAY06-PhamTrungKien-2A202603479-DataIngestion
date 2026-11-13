@@ -1,4 +1,13 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Active implementation: CPU Sentence Transformers + persistent Chroma.
+chromadb==1.5.9
+sentence-transformers==6.3.0
+transformers==5.22.2
+torch==2.15.0
+numpy==2.5.4
+PyMuPDF==2.1
+huggingface-hub==2.4.0
+pytest==9.2.0
+# Optional original PostgreSQL setup / diagnostic PDF comparison scripts.
 psycopg[binary]==3.3.8
-pypdf>=5,<7
-python-dotenv>=1,<2
+pypdf==6.21.4
+python-dotenv==1.2.4

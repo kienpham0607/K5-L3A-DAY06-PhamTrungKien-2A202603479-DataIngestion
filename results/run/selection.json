@@ -1,0 +1,40 @@
+{
+  "chosen_strategy": "A",
+  "selected_at_utc": "2026-11-13T14:02:37.931785+00:00",
+  "input_sha256": {
+    "starter\\config.json": "6cfde5f6dd3b3b671e4a5e95b120295eb6e248f8aa1b7942421d81d63432653b",
+    "data\\manifest.json": "1c54a37e098626943b75e432483679740ef738adbe02b06d435b2e2a49a293f0",
+    "benchmark\\questions.json": "46e089d934abb0dd3c743fe81d10520d7e9c714c7f56ab1a2d3ef88fd28c6159"
+  },
+  "rule": "Highest dev Evidence Hit@3 count, then dev Hit@1 count, then fewer indexed chunks, then alphabetical strategy ID. No test labels or test scores used.",
+  "dev_metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "n": 15,
+      "hit1_count": 4,
+      "hit3_count": 10,
+      "hit1": 0.26666666666666666,
+      "hit3": 0.6666666666666666
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "n": 15,
+      "hit1_count": 8,
+      "hit3_count": 9,
+      "hit1": 0.5333333333333333,
+      "hit3": 0.6
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "n": 15,
+      "hit1_count": 8,
+      "hit3_count": 9,
+      "hit1": 0.5333333333333333,
+      "hit3": 0.6
+    }
+  ],
+  "test_evaluated_at_selection": false
+}

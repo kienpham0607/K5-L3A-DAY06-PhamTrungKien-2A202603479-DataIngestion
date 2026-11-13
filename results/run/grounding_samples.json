@@ -1,0 +1,1316 @@
+[
+  {
+    "question_id": "Q16",
+    "split": "test",
+    "question": "Trên cao tốc, khi xe gặp sự cố và không thể vào làn dừng khẩn cấp, phải cảnh báo phía sau cách tối thiểu bao xa và cần làm gì?",
+    "expected_answer": "Bật đèn khẩn cấp, đặt biển hoặc đèn cảnh báo sau xe ít nhất 150 mét và nhanh chóng báo Cảnh sát giao thông trên tuyến hoặc cơ quan quản lý cao tốc.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 2,
+        "evidence_quote": "trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc."
+      }
+    ],
+    "requested_filter": {},
+    "hits": [
+      {
+        "chunk_id": "013207e2521f9de38321580edd648134",
+        "text": "chiều, các đường khác có thể đi được; riêng đối với đường cao tốc, chỉ được đi ngược chiều trên làn dừng xe khẩn cấp; phải tuân theo hiệu lệnh của người điều khiển giao thông, biển báo hiệu tạm thời.",
+        "score": 0.8029932975769043,
+        "metadata": {
+          "char_end": 2000,
+          "chunk_method": "fixed-500-50",
+          "section": "II",
+          "law_id": "36/2024/QH15",
+          "char_start": 1801,
+          "document_id": "traffic-law-part2",
+          "language": "vi",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "printed_page": 4,
+          "page_offset": 0,
+          "version": "original-2024",
+          "page": 3
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "462bb7378193cfa190c0bfc29fc1a254",
+        "text": "cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc.\n\n3. Xe máy chuyên dùng có tốc độ thiết kế nhỏ hơn tốc độ tối thiểu quy định đối với đường cao tốc, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, xe gắn máy, xe thô sơ, người đi bộ không đ",
+        "score": 0.7319873571395874,
+        "metadata": {
+          "language": "vi",
+          "printed_page": 3,
+          "chunk_method": "fixed-500-50",
+          "law_id": "36/2024/QH15",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page_offset": 0,
+          "section": "II",
+          "char_end": 950,
+          "page": 2,
+          "char_start": 451,
+          "version": "original-2024",
+          "document_id": "traffic-law-part2"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "7158164f2583235d8dccda3b18f9dc1a",
+        "text": "tình huống quy định tại khoản 1 Điều này kịp thời báo cho cơ quan Công an nơi gần nhất hoặc cơ quan quản lý đường bộ; trường hợp phát hiện vụ tai nạn giao thông đường bộ phải báo ngay cho",
+        "score": 0.7130007743835449,
+        "metadata": {
+          "document_id": "traffic-law-part2",
+          "char_end": 1987,
+          "version": "original-2024",
+          "section": "VI",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "printed_page": 49,
+          "char_start": 1800,
+          "language": "vi",
+          "chunk_method": "fixed-500-50",
+          "law_id": "36/2024/QH15",
+          "page_offset": 0,
+          "page": 48
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": {},
+    "search_seconds": 0.05998619999991206,
+    "executed_at_utc": "2026-11-13T14:03:12.655203+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q17",
+    "split": "test",
+    "question": "Khi đi trong hầm đường bộ, xe cơ giới, xe máy chuyên dùng và xe thô sơ phải sử dụng đèn thế nào?",
+    "expected_answer": "Xe cơ giới, xe máy chuyên dùng bật đèn chiếu gần; xe thô sơ bật đèn hoặc có vật phát sáng báo hiệu.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 2,
+        "evidence_quote": "1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu;"
+      }
+    ],
+    "requested_filter": {},
+    "hits": [
+      {
+        "chunk_id": "8f2fbbf84eb8811bea87f3663e3c2e12",
+        "text": "mô tô, xe gắn máy, xe thô sơ, người đi bộ không được đi trên đường cao tốc, trừ người, phương tiện giao thông đường bộ và thiết bị phục vụ việc quản lý, bảo trì đường cao tốc.\n\nĐiều 26. Giao thông trong hầm đường bộ Người điều khiển phương tiện tham gia giao thông đường bộ khi điều khiển phương tiện trong hầm đường bộ phải tuân thủ quy tắc giao thông đường bộ sau đây:\n\n1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu;\n\n2. Không dừng",
+        "score": 0.7701219916343689,
+        "metadata": {
+          "page_offset": 0,
+          "document_id": "traffic-law-part2",
+          "language": "vi",
+          "version": "original-2024",
+          "section": "II",
+          "char_end": 1400,
+          "char_start": 901,
+          "page": 2,
+          "printed_page": 3,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "chunk_method": "fixed-500-50",
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "3ac85270d0ce885178c1091a6c62fc24",
+        "text": "đèn hoặc có vật phát sáng báo hiệu;\n\n2. Không dừng xe, đỗ xe trong hầm đường bộ; trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe, người lái xe, người điều khiển xe máy chuyên dùng phải đưa xe vào vị trí dừng xe, đỗ xe khẩn cấp, nếu không di chuyển được, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách bảo đảm an toàn, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trê",
+        "score": 0.7299769520759583,
+        "metadata": {
+          "char_start": 1350,
+          "page_offset": 0,
+          "law_id": "36/2024/QH15",
+          "char_end": 1850,
+          "chunk_method": "fixed-500-50",
+          "printed_page": 3,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "language": "vi",
+          "version": "original-2024",
+          "section": "II",
+          "page": 2,
+          "document_id": "traffic-law-part2"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "c9551265c60b6b7880a1fbdbd8c1bef7",
+        "text": "b) Chỉ được qua đường ở những nơi có đèn tín hiệu, có vạch kẻ đường hoặc có cầu vượt, hầm dành cho người đi bộ và phải tuân thủ tín hiệu chỉ dẫn, báo hiệu đường bộ. Trường hợp không có đèn tín hiệu, vạch kẻ đường, cầu vượt, hầm dành cho người đi bộ thì phải quan sát các xe đang đi tới, chỉ qua đường khi bảo đảm an toàn, khi qua đường phải có tín hiệu bằng tay;\n\nc) Không được vượt qua dải phân cách, đu, bám vào phương tiện giao thông đường bộ đang di chuyển; khi mang, vác vật cồng kềnh phải bảo đ",
+        "score": 0.6875516176223755,
+        "metadata": {
+          "document_id": "traffic-law-part2",
+          "page": 5,
+          "law_id": "36/2024/QH15",
+          "language": "vi",
+          "chunk_method": "fixed-500-50",
+          "page_offset": 0,
+          "char_end": 1400,
+          "section": "II",
+          "printed_page": 6,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "version": "original-2024",
+          "char_start": 900
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": {},
+    "search_seconds": 0.002172499999687716,
+    "executed_at_utc": "2026-11-13T14:03:12.657217+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q18",
+    "split": "test",
+    "question": "Trong Chương IV về người điều khiển phương tiện, thời gian lái xe ô tô kinh doanh vận tải và vận tải nội bộ tối đa mỗi ngày, mỗi tuần và liên tục là bao nhiêu?",
+    "expected_answer": "Không quá 10 giờ/ngày, 48 giờ/tuần, liên tục không quá 04 giờ; bảo đảm quy định liên quan của Bộ luật Lao động.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 39,
+        "evidence_quote": "1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan của Bộ luật Lao động."
+      }
+    ],
+    "requested_filter": {
+      "section": "IV"
+    },
+    "hits": [
+      {
+        "chunk_id": "12e297e437e92ff27b2d3e56146d6a53",
+        "text": "Điều 64. Thời gian làm việc của người lái xe ô tô kinh doanh vận tải và vận tải nội bộ\n\n1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan của Bộ luật Lao động.\n\n2. Đơn vị kinh doanh vận tải, đơn vị hoạt động vận tải nội bộ và người lái xe ô tô kinh doanh vận tải và vận tải nội bộ chịu trách nhiệm thực hiện các quy định tại Điều này.",
+        "score": 0.770885169506073,
+        "metadata": {
+          "version": "original-2024",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 0,
+          "section": "IV",
+          "page_offset": 0,
+          "printed_page": 40,
+          "page": 39,
+          "document_id": "traffic-law-part2",
+          "chunk_method": "fixed-500-50",
+          "language": "vi",
+          "law_id": "36/2024/QH15",
+          "char_end": 464
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "f1db5b28efa387d628c84467b1c3e517",
+        "text": "u kéo và có một phần đáng kể khối lượng toàn bộ đặt lên xe ô tô đầu kéo;\n\nd) Xe chở người bốn bánh có gắn động cơ là xe có từ bốn bánh trở lên, chạy bằng động cơ, được thiết kế, sản xuất để hoạt động trên đường bộ, có kết cấu để chở người, vận tốc thiết kế không lớn hơn 30 km/h, số người cho phép chở tối đa 15 người (không kể người lái xe);\n\nđ) Xe chở hàng bốn bánh có gắn động cơ là xe có từ bốn bánh trở lên, chạy bằng động cơ, được thiết kế, sản xuất để hoạt động trên đường bộ, có kết cấu để ch",
+        "score": 0.6267798542976379,
+        "metadata": {
+          "page_offset": 0,
+          "char_end": 1400,
+          "section": "III",
+          "char_start": 900,
+          "printed_page": 9,
+          "chunk_method": "fixed-500-50",
+          "page": 8,
+          "version": "original-2024",
+          "law_id": "36/2024/QH15",
+          "document_id": "traffic-law-part2",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "language": "vi"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "cb4a65a6bee1af066cf0e42d2f323b46",
+        "text": "3. Người điều khiển xe chở hàng bốn bánh có gắn động cơ, xe chở người bốn bánh có gắn động cơ phải sử dụng giấy phép lái xe có hạng phù hợp với xe ô tô tải hoặc xe ô tô chở người tương ứng.\n\n4. Người điều khiển xe ô tô có thiết kế, cải tạo với số chỗ ít hơn xe cùng loại, kích thước giới hạn tương đương phải sử dụng giấy phép lái xe có hạng phù hợp với xe ô tô cùng loại, kích thước giới hạn tương đương và có số chỗ nhiều nhất.\n\n5. Thời hạn của giấy phép lái xe được quy định như sau:\n\na) Giấy phép",
+        "score": 0.6212746500968933,
+        "metadata": {
+          "printed_page": 33,
+          "section": "IV",
+          "document_id": "traffic-law-part2",
+          "version": "original-2024",
+          "language": "vi",
+          "page": 32,
+          "char_end": 500,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page_offset": 0,
+          "char_start": 0,
+          "chunk_method": "fixed-500-50",
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": {},
+    "search_seconds": 0.0024382000001423876,
+    "executed_at_utc": "2026-11-13T14:03:12.660204+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q19",
+    "split": "test",
+    "question": "Trong Chương VII về giải quyết tai nạn, người gây tai nạn hoặc liên quan phải ở lại hiện trường đến khi nào, trường hợp nào được rời đi và phải trình báo ở đâu?",
+    "expected_answer": "Ở lại đến khi Công an đến; được rời đi khi cấp cứu, đưa nạn nhân cấp cứu hoặc bị đe dọa tính mạng, sức khỏe, nhưng phải trình báo ngay Công an hoặc UBND gần nhất.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 51,
+        "evidence_quote": "b) Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất;"
+      }
+    ],
+    "requested_filter": {
+      "section": "VII"
+    },
+    "hits": [
+      {
+        "chunk_id": "fa5ab8279b2f09ce8185d11c2a9d32e4",
+        "text": "3. Người được quy định tại khoản 1 và khoản 2 Điều này chỉ được sử dụng phương tiện liên quan đến vụ tai nạn giao thông đường bộ để đưa nạn nhân đi cấp cứu trong trường hợp không có phương tiện nào khác nhưng phải xác định vị trí phương tiện, vị trí nạn nhân tại hiện trường, không được làm thay đổi, mất dấu vết liên quan đến vụ tai nạn giao thông đường bộ. Trường hợp có người chết phải giữ nguyên hiện trường và che đậy thi thể.\n\n4. Người điều khiển phương tiện tham gia giao thông đường bộ khác k",
+        "score": 0.707298994064331,
+        "metadata": {
+          "version": "original-2024",
+          "law_id": "36/2024/QH15",
+          "char_end": 500,
+          "chunk_method": "fixed-500-50",
+          "printed_page": 53,
+          "language": "vi",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page_offset": 0,
+          "page": 52,
+          "char_start": 0,
+          "section": "VII",
+          "document_id": "traffic-law-part2"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "bea399bbaf97291a2201a66eeec8af38",
+        "text": "Điều 82. Cứu nạn, cứu hộ khi xảy ra vụ tai nạn giao thông đường bộ\n\n1. Cơ quan Công an chủ trì, phối hợp với các cơ quan, tổ chức, cá nhân có liên quan tổ chức lực lượng và công cụ, phương tiện nhanh chóng có mặt tại hiện trường để cứu nạn, cứu hộ. Căn cứ vào tính chất, mức độ, hậu quả vụ tai nạn giao thông đường bộ, cơ quan Công an có trách nhiệm báo cáo cơ quan có thẩm quyền để huy động lực lượng, phương tiện giải quyết vụ tai nạn giao thông đường bộ trong trường hợp cần thiết.\n\n2. Cơ sở khám",
+        "score": 0.6567394137382507,
+        "metadata": {
+          "chunk_method": "fixed-500-50",
+          "page": 53,
+          "page_offset": 0,
+          "char_end": 499,
+          "law_id": "36/2024/QH15",
+          "section": "VII",
+          "version": "original-2024",
+          "language": "vi",
+          "printed_page": 54,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 0,
+          "document_id": "traffic-law-part2"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "b6dac0e5a7d263899494d2df30412175",
+        "text": "cảnh báo nguy hiểm, giữ nguyên hiện trường, trợ giúp người bị nạn và báo tin cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh hoặc Ủy ban nhân dân nơi gần nhất;\n\nb) Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất;\n\nc) Cung cấp thông tin xác định danh tính về bản thân, ngườ",
+        "score": 0.6532694697380066,
+        "metadata": {
+          "page": 51,
+          "page_offset": 344,
+          "chunk_method": "fixed-500-50",
+          "version": "original-2024",
+          "document_id": "traffic-law-part2",
+          "language": "vi",
+          "law_id": "36/2024/QH15",
+          "char_end": 1294,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "section": "VII",
+          "char_start": 794,
+          "printed_page": 52
+        },
+        "evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": {},
+    "search_seconds": 0.0023476000001210195,
+    "executed_at_utc": "2026-11-13T14:03:12.662275+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q20",
+    "split": "test",
+    "question": "Theo Chương IX về điều khoản thi hành, giấy phép lái xe cấp trước ngày luật này có hiệu lực có tiếp tục dùng được không và theo thời hạn nào?",
+    "expected_answer": "Được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 58,
+        "evidence_quote": "1. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe."
+      }
+    ],
+    "requested_filter": {
+      "section": "IX"
+    },
+    "hits": [
+      {
+        "chunk_id": "6b48c2d05e64fc36605e0c1fe0d1f641",
+        "text": "hợp quy định tại các khoản 1, 2, 5 và 6 Điều 89 của Luật này.\n\n4. Nghị quyết số 73/2022/QH15 của Quốc hội về thí điểm đấu giá biển số xe ô tô hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 7 Điều 89 của Luật này.\n\nĐiều 89. Quy định chuyển tiếp\n\n1. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.\n\n2. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành nếu chưa",
+        "score": 0.8364658355712891,
+        "metadata": {
+          "char_end": 1283,
+          "document_id": "traffic-law-part2",
+          "page": 58,
+          "section": "IX",
+          "law_id": "36/2024/QH15",
+          "printed_page": 59,
+          "version": "original-2024",
+          "chunk_method": "fixed-500-50",
+          "page_offset": 333,
+          "language": "vi",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 784
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "c29d87a9939ff6c974eb73ca52336fdf",
+        "text": "lái xe không thời hạn được cấp trước ngày 01 tháng 7 năm 2012 sang giấy phép lái xe theo quy định của Luật này.\n\n4. Chưa cấp, đổi, cấp lại giấy phép lái xe đối với người vi phạm pháp luật về trật tự, an toàn giao thông đường bộ khi người đó chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết vụ việc vi phạm hành chính trong lĩnh vực trật tự, an toàn giao thông đường bộ.\n\n5. Giấy phép lái xe bị thu hồi khi thuộc một trong các trường hợp sau đây:\n\na) Người được cấp giấy ph",
+        "score": 0.8175613880157471,
+        "metadata": {
+          "char_start": 900,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "version": "original-2024",
+          "document_id": "traffic-law-part2",
+          "language": "vi",
+          "law_id": "36/2024/QH15",
+          "char_end": 1400,
+          "chunk_method": "fixed-500-50",
+          "printed_page": 38,
+          "page_offset": 0,
+          "page": 37,
+          "section": "IV"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "16abbdbf87f8a110a37da2bd4e4fe743",
+        "text": "3. Trường hợp người có giấy phép lái xe đã được cấp trước ngày Luật này có hiệu lực thi hành có nhu cầu đổi, cấp lại giấy phép lái xe thì thực hiện như sau:\n\na) Giấy phép lái xe hạng A1 được đổi, cấp lại sang giấy phép lái xe hạng A với điều kiện hạn chế là chỉ được điều khiển xe mô tô hai bánh có dung tích xi-lanh đến dưới 175 cm3 hoặc có công suất động cơ điện đến dưới 14 kW;\n\nb) Giấy phép lái xe hạng A2 được đổi, cấp lại sang giấy phép lái xe hạng A;\n\nc) Giấy phép lái xe hạng A3 được đổi, cấp",
+        "score": 0.7997933626174927,
+        "metadata": {
+          "char_start": 0,
+          "printed_page": 61,
+          "chunk_method": "fixed-500-50",
+          "document_id": "traffic-law-part2",
+          "version": "original-2024",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page": 60,
+          "page_offset": 0,
+          "section": "IX",
+          "char_end": 500,
+          "language": "vi",
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": {},
+    "search_seconds": 0.0023212999999486783,
+    "executed_at_utc": "2026-11-13T14:03:12.664258+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q16",
+    "split": "test",
+    "question": "Trên cao tốc, khi xe gặp sự cố và không thể vào làn dừng khẩn cấp, phải cảnh báo phía sau cách tối thiểu bao xa và cần làm gì?",
+    "expected_answer": "Bật đèn khẩn cấp, đặt biển hoặc đèn cảnh báo sau xe ít nhất 150 mét và nhanh chóng báo Cảnh sát giao thông trên tuyến hoặc cơ quan quản lý cao tốc.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 2,
+        "evidence_quote": "trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc."
+      }
+    ],
+    "requested_filter": {},
+    "hits": [
+      {
+        "chunk_id": "c44d2f80f20c09981ec3c6be0ee130ee",
+        "text": "b) Khi chuẩn bị ra khỏi đường cao tốc phải quan sát biển báo hiệu chỉ dẫn, thực hiện chuyển dần sang làn đường sát bên phải, nếu có làn đường giảm tốc thì phải cho xe di chuyển trên làn đường đó trước khi ra khỏi đường cao tốc; Người ký: CỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ Email: thongtinchinhphu@chinhphu.vn Cơ quan: VĂN PHÒNG CHÍNH PHỦ Thời gian ký: 28.08.2024 14:38:08 +07:00",
+        "score": 0.7275091409683228,
+        "metadata": {
+          "chunk_method": "paragraph-800",
+          "document_id": "traffic-law-part2",
+          "printed_page": 2,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page_offset": 171,
+          "version": "original-2024",
+          "char_end": 1975,
+          "page": 1,
+          "language": "vi",
+          "section": "II",
+          "char_start": 1599,
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "286f5d6914f4b50897aefcb09914216b",
+        "text": "c) Xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh hoặc xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật có đèn nhấp nháy màu xanh.\n\n4. Xe ưu tiên quy định tại các điểm a, b, c và d khoản 2 Điều này không bị hạn chế tốc độ; được phép đi không phụ thuộc vào tín hiệu đèn giao thông, đi vào đường ngược chiều, các đường khác có thể đi được; riêng đối với đường cao tốc, chỉ được đi ngược chiều trên làn dừng xe khẩn cấp; phải tuân theo hiệu lệnh của người điều khiển giao thông, biển báo hiệu tạm thời.",
+        "score": 0.7247186303138733,
+        "metadata": {
+          "language": "vi",
+          "version": "original-2024",
+          "page": 3,
+          "page_offset": 0,
+          "document_id": "traffic-law-part2",
+          "chunk_method": "paragraph-800",
+          "char_end": 2000,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "section": "II",
+          "law_id": "36/2024/QH15",
+          "char_start": 1425,
+          "printed_page": 4
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "00a193da631c3af3ccd923828a0fbc07",
+        "text": "c) Không được cho xe chạy ở làn dừng xe khẩn cấp và phần lề đường;\n\nd) Các quy tắc giao thông đường bộ khác quy định tại Chương này.\n\n2. Chỉ được dừng xe, đỗ xe ở nơi quy định; trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe thì được dừng xe, đỗ xe ở làn dừng khẩn cấp cùng chiều xe chạy và phải có báo hiệu bằng đèn khẩn cấp; trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc.",
+        "score": 0.7166005969047546,
+        "metadata": {
+          "page_offset": 0,
+          "char_end": 680,
+          "document_id": "traffic-law-part2",
+          "law_id": "36/2024/QH15",
+          "printed_page": 3,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "language": "vi",
+          "version": "original-2024",
+          "section": "II",
+          "char_start": 0,
+          "page": 2,
+          "chunk_method": "paragraph-800"
+        },
+        "evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": {},
+    "search_seconds": 0.050551399999676505,
+    "executed_at_utc": "2026-11-13T14:03:12.715316+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q17",
+    "split": "test",
+    "question": "Khi đi trong hầm đường bộ, xe cơ giới, xe máy chuyên dùng và xe thô sơ phải sử dụng đèn thế nào?",
+    "expected_answer": "Xe cơ giới, xe máy chuyên dùng bật đèn chiếu gần; xe thô sơ bật đèn hoặc có vật phát sáng báo hiệu.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 2,
+        "evidence_quote": "1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu;"
+      }
+    ],
+    "requested_filter": {},
+    "hits": [
+      {
+        "chunk_id": "11b3860c76e14dfbc6f5aba8d8144e79",
+        "text": "Điều 26. Giao thông trong hầm đường bộ Người điều khiển phương tiện tham gia giao thông đường bộ khi điều khiển phương tiện trong hầm đường bộ phải tuân thủ quy tắc giao thông đường bộ sau đây:\n\n1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu;",
+        "score": 0.7806596755981445,
+        "metadata": {
+          "law_id": "36/2024/QH15",
+          "page_offset": 0,
+          "section": "II",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 1078,
+          "version": "original-2024",
+          "page": 2,
+          "char_end": 1385,
+          "chunk_method": "paragraph-800",
+          "printed_page": 3,
+          "document_id": "traffic-law-part2",
+          "language": "vi"
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "566650d8f23fa05078cbbd7a33b8ccd9",
+        "text": "2. Người lái xe, người điều khiển xe máy chuyên dùng phải tắt đèn chiếu xa, bật đèn chiếu gần trong các trường hợp sau đây:\n\na) Khi gặp người đi bộ qua đường;\n\nb) Khi đi trên các đoạn đường qua khu đông dân cư có hệ thống chiếu sáng đang hoạt động;\n\nc) Khi gặp xe đi ngược chiều, trừ trường hợp dải phân cách có khả năng chống chói;\n\nd) Khi chuyển hướng xe tại nơi đường giao nhau.\n\n3. Người lái xe, người điều khiển xe máy chuyên dùng khi thực hiện công việc trên đường bộ phải bật sáng đèn cảnh báo màu vàng.",
+        "score": 0.6699200868606567,
+        "metadata": {
+          "char_end": 510,
+          "page": 19,
+          "version": "original-2024",
+          "char_start": 0,
+          "document_id": "traffic-law-part1",
+          "chunk_method": "paragraph-800",
+          "page_offset": 0,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+          "section": "II",
+          "law_id": "36/2024/QH15",
+          "language": "vi",
+          "printed_page": 94
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "b3dce73a4e5df08893a218429b8abb96",
+        "text": "đ) Khi vận chuyển hàng rời, vật liệu xây dựng, phế thải phải che đậy kín, không để rơi vãi xuống đường, gây ra tiếng ồn hoặc bụi bẩn trong suốt quá trình vận chuyển trên đường và chiều cao tối đa của hàng hóa phải thấp hơn mép trên thành thùng xe tối thiểu 10 cm;\n\ne) Khi vận chuyển hàng hóa xếp vượt phía trước và phía sau xe thì ban ngày phải có báo hiệu màu đỏ tại điểm đầu và điểm cuối cùng của hàng hóa, ban đêm hoặc khi trời tối phải có đèn hoặc báo hiệu cho người tham gia giao thông đường bộ để nhận biết.\n\n2. Lực lượng Cảnh sát giao thông chịu trách nhiệm tổ chức tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ đối với xe ô tô vận chuyển hàng hóa quá tải lưu hành trên đường bộ.",
+        "score": 0.6678283214569092,
+        "metadata": {
+          "chunk_method": "paragraph-800",
+          "document_id": "traffic-law-part2",
+          "char_start": 606,
+          "law_id": "36/2024/QH15",
+          "section": "III",
+          "printed_page": 24,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "language": "vi",
+          "char_end": 1331,
+          "version": "original-2024",
+          "page": 23,
+          "page_offset": 0
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": {},
+    "search_seconds": 0.0022337999998853775,
+    "executed_at_utc": "2026-11-13T14:03:12.717316+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q18",
+    "split": "test",
+    "question": "Trong Chương IV về người điều khiển phương tiện, thời gian lái xe ô tô kinh doanh vận tải và vận tải nội bộ tối đa mỗi ngày, mỗi tuần và liên tục là bao nhiêu?",
+    "expected_answer": "Không quá 10 giờ/ngày, 48 giờ/tuần, liên tục không quá 04 giờ; bảo đảm quy định liên quan của Bộ luật Lao động.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 39,
+        "evidence_quote": "1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan của Bộ luật Lao động."
+      }
+    ],
+    "requested_filter": {
+      "section": "IV"
+    },
+    "hits": [
+      {
+        "chunk_id": "e875f57b6a639b8c5653b2442959ff2a",
+        "text": "Điều 64. Thời gian làm việc của người lái xe ô tô kinh doanh vận tải và vận tải nội bộ\n\n1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan của Bộ luật Lao động.\n\n2. Đơn vị kinh doanh vận tải, đơn vị hoạt động vận tải nội bộ và người lái xe ô tô kinh doanh vận tải và vận tải nội bộ chịu trách nhiệm thực hiện các quy định tại Điều này.",
+        "score": 0.770885169506073,
+        "metadata": {
+          "version": "original-2024",
+          "section": "IV",
+          "chunk_method": "paragraph-800",
+          "document_id": "traffic-law-part2",
+          "language": "vi",
+          "char_end": 464,
+          "printed_page": 40,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 0,
+          "law_id": "36/2024/QH15",
+          "page": 39,
+          "page_offset": 0
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "79db098ca401ed390c3fdfc7a27daa1e",
+        "text": "3. Người điều khiển xe chở hàng bốn bánh có gắn động cơ, xe chở người bốn bánh có gắn động cơ phải sử dụng giấy phép lái xe có hạng phù hợp với xe ô tô tải hoặc xe ô tô chở người tương ứng.\n\n4. Người điều khiển xe ô tô có thiết kế, cải tạo với số chỗ ít hơn xe cùng loại, kích thước giới hạn tương đương phải sử dụng giấy phép lái xe có hạng phù hợp với xe ô tô cùng loại, kích thước giới hạn tương đương và có số chỗ nhiều nhất.\n\n5. Thời hạn của giấy phép lái xe được quy định như sau:\n\na) Giấy phép lái xe các hạng A1, A, B1 không thời hạn;\n\nb) Giấy phép lái xe hạng B và hạng C1 có thời hạn 10 năm kể từ ngày cấp;\n\nc) Giấy phép lái xe các hạng C, D1, D2, D, BE, C1E, CE, D1E, D2E và DE có thời hạn 05 năm kể từ ngày cấp.",
+        "score": 0.6684196591377258,
+        "metadata": {
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "version": "original-2024",
+          "section": "IV",
+          "page_offset": 0,
+          "char_start": 0,
+          "document_id": "traffic-law-part2",
+          "law_id": "36/2024/QH15",
+          "printed_page": 33,
+          "chunk_method": "paragraph-800",
+          "language": "vi",
+          "char_end": 723,
+          "page": 32
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "e67e071b9777caa45084e92590edf779",
+        "text": "4. Người điều khiển xe thô sơ chỉ được cho xe đi hàng một, nơi có phần đường dành cho xe thô sơ thì phải đi đúng phần đường quy định; khi tham gia giao thông đường bộ trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau phải sử dụng đèn hoặc có báo hiệu ở phía trước và phía sau xe.\n\n5. Hàng hóa xếp trên xe thô sơ phải bảo đảm an toàn, không gây cản trở giao thông và che khuất tầm nhìn của người điều khiển. Hàng hóa xếp trên xe không vượt quá 1/3 chiều dài thân xe và không vượt quá 01 mét phía trước và phía sau xe; không vượt quá 0,4 mét mỗi bên bánh xe.",
+        "score": 0.6604412198066711,
+        "metadata": {
+          "language": "vi",
+          "page_offset": 0,
+          "section": "II",
+          "version": "original-2024",
+          "document_id": "traffic-law-part2",
+          "char_end": 1189,
+          "printed_page": 7,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page": 6,
+          "chunk_method": "paragraph-800",
+          "char_start": 618,
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": {},
+    "search_seconds": 0.002192200000081357,
+    "executed_at_utc": "2026-11-13T14:03:12.719315+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q19",
+    "split": "test",
+    "question": "Trong Chương VII về giải quyết tai nạn, người gây tai nạn hoặc liên quan phải ở lại hiện trường đến khi nào, trường hợp nào được rời đi và phải trình báo ở đâu?",
+    "expected_answer": "Ở lại đến khi Công an đến; được rời đi khi cấp cứu, đưa nạn nhân cấp cứu hoặc bị đe dọa tính mạng, sức khỏe, nhưng phải trình báo ngay Công an hoặc UBND gần nhất.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 51,
+        "evidence_quote": "b) Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất;"
+      }
+    ],
+    "requested_filter": {
+      "section": "VII"
+    },
+    "hits": [
+      {
+        "chunk_id": "9d5a2bea276301002af756e5e8d95871",
+        "text": "b) Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất;\n\nc) Cung cấp thông tin xác định danh tính về bản thân, người liên quan đến vụ tai nạn giao thông đường bộ và thông tin liên quan của vụ tai nạn giao thông đường bộ cho cơ quan có thẩm quyền.\n\n2. Người có mặt tại nơi xảy ra vụ tai nạn giao thông đường bộ có trách nhiệm sau đây:\n\na) Giúp đỡ, cứu chữa kịp thời người bị nạn;\n\nb) Báo tin ngay cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh hoặc Ủy ban nhân dân nơi gần nhất;\n\nc) Tham gia bảo vệ hiện trường;\n\nd) Tham gia bảo vệ tài sản của người bị nạn;",
+        "score": 0.6594352126121521,
+        "metadata": {
+          "page": 51,
+          "printed_page": 52,
+          "char_end": 1736,
+          "char_start": 955,
+          "page_offset": 344,
+          "section": "VII",
+          "chunk_method": "paragraph-800",
+          "language": "vi",
+          "document_id": "traffic-law-part2",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "law_id": "36/2024/QH15",
+          "version": "original-2024"
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "59c2092fedc99d225d6589346e08b3f5",
+        "text": "Điều 82. Cứu nạn, cứu hộ khi xảy ra vụ tai nạn giao thông đường bộ\n\n1. Cơ quan Công an chủ trì, phối hợp với các cơ quan, tổ chức, cá nhân có liên quan tổ chức lực lượng và công cụ, phương tiện nhanh chóng có mặt tại hiện trường để cứu nạn, cứu hộ. Căn cứ vào tính chất, mức độ, hậu quả vụ tai nạn giao thông đường bộ, cơ quan Công an có trách nhiệm báo cáo cơ quan có thẩm quyền để huy động lực lượng, phương tiện giải quyết vụ tai nạn giao thông đường bộ trong trường hợp cần thiết.\n\n2. Cơ sở khám bệnh, chữa bệnh phải bố trí, phân công người, phương tiện sẵn sàng và nhanh chóng có mặt tại hiện trường để sơ cứu, vận chuyển, cấp cứu nạn nhân sau khi tiếp nhận tin báo vụ tai nạn giao thông đường bộ; hỗ trợ, cứu chữa nạn nhân bị tai nạn giao thông đường bộ trong mọi trường hợp.",
+        "score": 0.6397515535354614,
+        "metadata": {
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "section": "VII",
+          "version": "original-2024",
+          "char_end": 781,
+          "page": 53,
+          "language": "vi",
+          "printed_page": 54,
+          "chunk_method": "paragraph-800",
+          "document_id": "traffic-law-part2",
+          "page_offset": 0,
+          "char_start": 0,
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "bc6aef49015f2fd134d26385eb3a10f4",
+        "text": "3. Người được quy định tại khoản 1 và khoản 2 Điều này chỉ được sử dụng phương tiện liên quan đến vụ tai nạn giao thông đường bộ để đưa nạn nhân đi cấp cứu trong trường hợp không có phương tiện nào khác nhưng phải xác định vị trí phương tiện, vị trí nạn nhân tại hiện trường, không được làm thay đổi, mất dấu vết liên quan đến vụ tai nạn giao thông đường bộ. Trường hợp có người chết phải giữ nguyên hiện trường và che đậy thi thể.\n\n4. Người điều khiển phương tiện tham gia giao thông đường bộ khác khi đi qua nơi xảy ra vụ tai nạn giao thông đường bộ có trách nhiệm chở người bị thương đi cấp cứu. Xe ưu tiên, xe chở người được hưởng quyền ưu đãi, miễn trừ ngoại giao không bắt buộc thực hiện quy định tại khoản này.",
+        "score": 0.6389933824539185,
+        "metadata": {
+          "chunk_method": "paragraph-800",
+          "page": 52,
+          "law_id": "36/2024/QH15",
+          "section": "VII",
+          "page_offset": 0,
+          "char_end": 717,
+          "version": "original-2024",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 0,
+          "document_id": "traffic-law-part2",
+          "printed_page": 53,
+          "language": "vi"
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": {},
+    "search_seconds": 0.001980200000161858,
+    "executed_at_utc": "2026-11-13T14:03:12.721315+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q20",
+    "split": "test",
+    "question": "Theo Chương IX về điều khoản thi hành, giấy phép lái xe cấp trước ngày luật này có hiệu lực có tiếp tục dùng được không và theo thời hạn nào?",
+    "expected_answer": "Được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 58,
+        "evidence_quote": "1. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe."
+      }
+    ],
+    "requested_filter": {
+      "section": "IX"
+    },
+    "hits": [
+      {
+        "chunk_id": "b2d237ee5c7cb57a588b162c722e30c0",
+        "text": "3. Trường hợp giấy phép lái xe bị trừ hết điểm thì người có giấy phép lái xe không được điều khiển phương tiện tham gia giao thông đường bộ theo giấy phép lái xe đó. Sau thời hạn ít nhất là 06 tháng kể từ ngày bị trừ hết điểm, người có giấy",
+        "score": 0.7983683943748474,
+        "metadata": {
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 2058,
+          "page_offset": 0,
+          "law_id": "36/2024/QH15",
+          "version": "original-2024",
+          "printed_page": 34,
+          "page": 33,
+          "language": "vi",
+          "document_id": "traffic-law-part2",
+          "char_end": 2298,
+          "chunk_method": "paragraph-800",
+          "section": "IV"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "525fad8ea2120df3de83d7f979fcb89c",
+        "text": "7. Giấy phép lái xe không có hiệu lực trong các trường hợp sau đây:\n\na) Giấy phép lái xe hết thời hạn sử dụng;\n\nb) Giấy phép lái xe bị thu hồi theo quy định tại khoản 5 Điều 62 của Luật này.\n\n8. Giấy phép lái xe quốc tế được quy định như sau:\n\na) Giấy phép lái xe quốc tế là giấy phép lái xe do cơ quan nhà nước có thẩm quyền của quốc gia là thành viên của Công ước Viên cấp theo một mẫu thống nhất; có thời hạn không quá 03 năm kể từ ngày cấp và phải phù hợp với thời hạn còn hiệu lực của giấy phép lái xe quốc gia;",
+        "score": 0.784825325012207,
+        "metadata": {
+          "version": "original-2024",
+          "page_offset": 0,
+          "chunk_method": "paragraph-800",
+          "document_id": "traffic-law-part2",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page": 32,
+          "section": "IV",
+          "char_start": 1461,
+          "printed_page": 33,
+          "language": "vi",
+          "char_end": 1977,
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "94097cfffb7b0aefff9551b0b3cf39b9",
+        "text": "Điều 62. Cấp, đổi, cấp lại và thu hồi giấy phép lái xe\n\n1. Giấy phép lái xe được cấp cho người tham dự kỳ sát hạch lái xe có kết quả đạt yêu cầu.\n\n2. Người có giấy phép lái xe được đổi, cấp lại giấy phép lái xe trong các trường hợp sau đây:\n\na) Giấy phép lái xe bị mất;\n\nb) Giấy phép lái xe bị hỏng không còn sử dụng được;\n\nc) Trước thời hạn ghi trên giấy phép lái xe;\n\nd) Thay đổi thông tin ghi trên giấy phép lái xe;\n\nđ) Giấy phép lái xe nước ngoài do cơ quan có thẩm quyền của nước ngoài cấp còn giá trị sử dụng;\n\ne) Giấy phép lái xe do Bộ Quốc phòng, Bộ Công an cấp khi có yêu cầu hoặc người được cấp không còn làm nhiệm vụ quốc phòng, an ninh.\n\n3. Khuyến khích đổi giấy phép lái xe không thời hạn được cấp trước ngày 01 tháng 7 năm 2012 sang giấy phép lái xe theo quy định của Luật này.",
+        "score": 0.77994704246521,
+        "metadata": {
+          "law_id": "36/2024/QH15",
+          "page": 37,
+          "printed_page": 38,
+          "char_end": 1011,
+          "section": "IV",
+          "version": "original-2024",
+          "language": "vi",
+          "page_offset": 0,
+          "char_start": 220,
+          "document_id": "traffic-law-part2",
+          "chunk_method": "paragraph-800",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf"
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "B",
+    "applied_filter": {},
+    "search_seconds": 0.0022342000002026907,
+    "executed_at_utc": "2026-11-13T14:03:12.723316+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q16",
+    "split": "test",
+    "question": "Trên cao tốc, khi xe gặp sự cố và không thể vào làn dừng khẩn cấp, phải cảnh báo phía sau cách tối thiểu bao xa và cần làm gì?",
+    "expected_answer": "Bật đèn khẩn cấp, đặt biển hoặc đèn cảnh báo sau xe ít nhất 150 mét và nhanh chóng báo Cảnh sát giao thông trên tuyến hoặc cơ quan quản lý cao tốc.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 2,
+        "evidence_quote": "trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc."
+      }
+    ],
+    "requested_filter": {},
+    "hits": [
+      {
+        "chunk_id": "c44d2f80f20c09981ec3c6be0ee130ee",
+        "text": "b) Khi chuẩn bị ra khỏi đường cao tốc phải quan sát biển báo hiệu chỉ dẫn, thực hiện chuyển dần sang làn đường sát bên phải, nếu có làn đường giảm tốc thì phải cho xe di chuyển trên làn đường đó trước khi ra khỏi đường cao tốc; Người ký: CỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ Email: thongtinchinhphu@chinhphu.vn Cơ quan: VĂN PHÒNG CHÍNH PHỦ Thời gian ký: 28.08.2024 14:38:08 +07:00",
+        "score": 0.7275091409683228,
+        "metadata": {
+          "document_id": "traffic-law-part2",
+          "section": "II",
+          "chunk_method": "paragraph-800",
+          "language": "vi",
+          "page_offset": 171,
+          "version": "original-2024",
+          "law_id": "36/2024/QH15",
+          "page": 1,
+          "printed_page": 2,
+          "char_end": 1975,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 1599
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "286f5d6914f4b50897aefcb09914216b",
+        "text": "c) Xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh hoặc xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật có đèn nhấp nháy màu xanh.\n\n4. Xe ưu tiên quy định tại các điểm a, b, c và d khoản 2 Điều này không bị hạn chế tốc độ; được phép đi không phụ thuộc vào tín hiệu đèn giao thông, đi vào đường ngược chiều, các đường khác có thể đi được; riêng đối với đường cao tốc, chỉ được đi ngược chiều trên làn dừng xe khẩn cấp; phải tuân theo hiệu lệnh của người điều khiển giao thông, biển báo hiệu tạm thời.",
+        "score": 0.7247186303138733,
+        "metadata": {
+          "chunk_method": "paragraph-800",
+          "printed_page": 4,
+          "document_id": "traffic-law-part2",
+          "law_id": "36/2024/QH15",
+          "page_offset": 0,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "section": "II",
+          "version": "original-2024",
+          "char_end": 2000,
+          "language": "vi",
+          "char_start": 1425,
+          "page": 3
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "00a193da631c3af3ccd923828a0fbc07",
+        "text": "c) Không được cho xe chạy ở làn dừng xe khẩn cấp và phần lề đường;\n\nd) Các quy tắc giao thông đường bộ khác quy định tại Chương này.\n\n2. Chỉ được dừng xe, đỗ xe ở nơi quy định; trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe thì được dừng xe, đỗ xe ở làn dừng khẩn cấp cùng chiều xe chạy và phải có báo hiệu bằng đèn khẩn cấp; trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc.",
+        "score": 0.7166005969047546,
+        "metadata": {
+          "page_offset": 0,
+          "law_id": "36/2024/QH15",
+          "char_end": 680,
+          "section": "II",
+          "chunk_method": "paragraph-800",
+          "language": "vi",
+          "document_id": "traffic-law-part2",
+          "char_start": 0,
+          "page": 2,
+          "printed_page": 3,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "version": "original-2024"
+        },
+        "evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {},
+    "search_seconds": 0.0024909000003390247,
+    "executed_at_utc": "2026-11-13T14:03:12.726446+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q17",
+    "split": "test",
+    "question": "Khi đi trong hầm đường bộ, xe cơ giới, xe máy chuyên dùng và xe thô sơ phải sử dụng đèn thế nào?",
+    "expected_answer": "Xe cơ giới, xe máy chuyên dùng bật đèn chiếu gần; xe thô sơ bật đèn hoặc có vật phát sáng báo hiệu.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 2,
+        "evidence_quote": "1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu;"
+      }
+    ],
+    "requested_filter": {},
+    "hits": [
+      {
+        "chunk_id": "11b3860c76e14dfbc6f5aba8d8144e79",
+        "text": "Điều 26. Giao thông trong hầm đường bộ Người điều khiển phương tiện tham gia giao thông đường bộ khi điều khiển phương tiện trong hầm đường bộ phải tuân thủ quy tắc giao thông đường bộ sau đây:\n\n1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu;",
+        "score": 0.7806596755981445,
+        "metadata": {
+          "char_start": 1078,
+          "printed_page": 3,
+          "page_offset": 0,
+          "page": 2,
+          "chunk_method": "paragraph-800",
+          "document_id": "traffic-law-part2",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "section": "II",
+          "version": "original-2024",
+          "language": "vi",
+          "char_end": 1385,
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "566650d8f23fa05078cbbd7a33b8ccd9",
+        "text": "2. Người lái xe, người điều khiển xe máy chuyên dùng phải tắt đèn chiếu xa, bật đèn chiếu gần trong các trường hợp sau đây:\n\na) Khi gặp người đi bộ qua đường;\n\nb) Khi đi trên các đoạn đường qua khu đông dân cư có hệ thống chiếu sáng đang hoạt động;\n\nc) Khi gặp xe đi ngược chiều, trừ trường hợp dải phân cách có khả năng chống chói;\n\nd) Khi chuyển hướng xe tại nơi đường giao nhau.\n\n3. Người lái xe, người điều khiển xe máy chuyên dùng khi thực hiện công việc trên đường bộ phải bật sáng đèn cảnh báo màu vàng.",
+        "score": 0.6699200868606567,
+        "metadata": {
+          "section": "II",
+          "page_offset": 0,
+          "char_end": 510,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+          "language": "vi",
+          "chunk_method": "paragraph-800",
+          "char_start": 0,
+          "document_id": "traffic-law-part1",
+          "law_id": "36/2024/QH15",
+          "printed_page": 94,
+          "page": 19,
+          "version": "original-2024"
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "b3dce73a4e5df08893a218429b8abb96",
+        "text": "đ) Khi vận chuyển hàng rời, vật liệu xây dựng, phế thải phải che đậy kín, không để rơi vãi xuống đường, gây ra tiếng ồn hoặc bụi bẩn trong suốt quá trình vận chuyển trên đường và chiều cao tối đa của hàng hóa phải thấp hơn mép trên thành thùng xe tối thiểu 10 cm;\n\ne) Khi vận chuyển hàng hóa xếp vượt phía trước và phía sau xe thì ban ngày phải có báo hiệu màu đỏ tại điểm đầu và điểm cuối cùng của hàng hóa, ban đêm hoặc khi trời tối phải có đèn hoặc báo hiệu cho người tham gia giao thông đường bộ để nhận biết.\n\n2. Lực lượng Cảnh sát giao thông chịu trách nhiệm tổ chức tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ đối với xe ô tô vận chuyển hàng hóa quá tải lưu hành trên đường bộ.",
+        "score": 0.6678283214569092,
+        "metadata": {
+          "char_end": 1331,
+          "printed_page": 24,
+          "page": 23,
+          "char_start": 606,
+          "language": "vi",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "section": "III",
+          "page_offset": 0,
+          "law_id": "36/2024/QH15",
+          "chunk_method": "paragraph-800",
+          "document_id": "traffic-law-part2",
+          "version": "original-2024"
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {},
+    "search_seconds": 0.0022819999999228457,
+    "executed_at_utc": "2026-11-13T14:03:12.728446+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q18",
+    "split": "test",
+    "question": "Trong Chương IV về người điều khiển phương tiện, thời gian lái xe ô tô kinh doanh vận tải và vận tải nội bộ tối đa mỗi ngày, mỗi tuần và liên tục là bao nhiêu?",
+    "expected_answer": "Không quá 10 giờ/ngày, 48 giờ/tuần, liên tục không quá 04 giờ; bảo đảm quy định liên quan của Bộ luật Lao động.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 39,
+        "evidence_quote": "1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan của Bộ luật Lao động."
+      }
+    ],
+    "requested_filter": {
+      "section": "IV"
+    },
+    "hits": [
+      {
+        "chunk_id": "e875f57b6a639b8c5653b2442959ff2a",
+        "text": "Điều 64. Thời gian làm việc của người lái xe ô tô kinh doanh vận tải và vận tải nội bộ\n\n1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan của Bộ luật Lao động.\n\n2. Đơn vị kinh doanh vận tải, đơn vị hoạt động vận tải nội bộ và người lái xe ô tô kinh doanh vận tải và vận tải nội bộ chịu trách nhiệm thực hiện các quy định tại Điều này.",
+        "score": 0.770885169506073,
+        "metadata": {
+          "version": "original-2024",
+          "document_id": "traffic-law-part2",
+          "char_end": 464,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "section": "IV",
+          "char_start": 0,
+          "page_offset": 0,
+          "language": "vi",
+          "printed_page": 40,
+          "law_id": "36/2024/QH15",
+          "page": 39,
+          "chunk_method": "paragraph-800"
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "79db098ca401ed390c3fdfc7a27daa1e",
+        "text": "3. Người điều khiển xe chở hàng bốn bánh có gắn động cơ, xe chở người bốn bánh có gắn động cơ phải sử dụng giấy phép lái xe có hạng phù hợp với xe ô tô tải hoặc xe ô tô chở người tương ứng.\n\n4. Người điều khiển xe ô tô có thiết kế, cải tạo với số chỗ ít hơn xe cùng loại, kích thước giới hạn tương đương phải sử dụng giấy phép lái xe có hạng phù hợp với xe ô tô cùng loại, kích thước giới hạn tương đương và có số chỗ nhiều nhất.\n\n5. Thời hạn của giấy phép lái xe được quy định như sau:\n\na) Giấy phép lái xe các hạng A1, A, B1 không thời hạn;\n\nb) Giấy phép lái xe hạng B và hạng C1 có thời hạn 10 năm kể từ ngày cấp;\n\nc) Giấy phép lái xe các hạng C, D1, D2, D, BE, C1E, CE, D1E, D2E và DE có thời hạn 05 năm kể từ ngày cấp.",
+        "score": 0.6684196591377258,
+        "metadata": {
+          "char_end": 723,
+          "version": "original-2024",
+          "section": "IV",
+          "printed_page": 33,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "language": "vi",
+          "document_id": "traffic-law-part2",
+          "law_id": "36/2024/QH15",
+          "chunk_method": "paragraph-800",
+          "char_start": 0,
+          "page": 32,
+          "page_offset": 0
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "d1bcf2fe6ee19da8e38b8710101fc0d9",
+        "text": "Điều 57. Giấy phép lái xe\n\n1. Giấy phép lái xe bao gồm các hạng sau đây:\n\na) Hạng A1 cấp cho người lái xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW;\n\nb) Hạng A cấp cho người lái xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 hoặc có công suất động cơ điện trên 11 kW và các loại xe quy định cho giấy phép lái xe hạng A1;\n\nc) Hạng B1 cấp cho người lái xe mô tô ba bánh và các loại xe quy định cho giấy phép lái xe hạng A1;\n\nd) Hạng B cấp cho người lái xe ô tô chở người đến 08 chỗ (không kể chỗ của người lái xe); xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg; các loại xe ô tô quy định cho giấy phép lái xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg;",
+        "score": 0.6295218467712402,
+        "metadata": {
+          "char_end": 1608,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "version": "original-2024",
+          "language": "vi",
+          "law_id": "36/2024/QH15",
+          "page": 30,
+          "page_offset": 0,
+          "char_start": 848,
+          "document_id": "traffic-law-part2",
+          "printed_page": 31,
+          "chunk_method": "paragraph-800",
+          "section": "IV"
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "IV"
+    },
+    "search_seconds": 0.0032440999998470943,
+    "executed_at_utc": "2026-11-13T14:03:12.731454+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q19",
+    "split": "test",
+    "question": "Trong Chương VII về giải quyết tai nạn, người gây tai nạn hoặc liên quan phải ở lại hiện trường đến khi nào, trường hợp nào được rời đi và phải trình báo ở đâu?",
+    "expected_answer": "Ở lại đến khi Công an đến; được rời đi khi cấp cứu, đưa nạn nhân cấp cứu hoặc bị đe dọa tính mạng, sức khỏe, nhưng phải trình báo ngay Công an hoặc UBND gần nhất.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 51,
+        "evidence_quote": "b) Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất;"
+      }
+    ],
+    "requested_filter": {
+      "section": "VII"
+    },
+    "hits": [
+      {
+        "chunk_id": "9d5a2bea276301002af756e5e8d95871",
+        "text": "b) Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất;\n\nc) Cung cấp thông tin xác định danh tính về bản thân, người liên quan đến vụ tai nạn giao thông đường bộ và thông tin liên quan của vụ tai nạn giao thông đường bộ cho cơ quan có thẩm quyền.\n\n2. Người có mặt tại nơi xảy ra vụ tai nạn giao thông đường bộ có trách nhiệm sau đây:\n\na) Giúp đỡ, cứu chữa kịp thời người bị nạn;\n\nb) Báo tin ngay cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh hoặc Ủy ban nhân dân nơi gần nhất;\n\nc) Tham gia bảo vệ hiện trường;\n\nd) Tham gia bảo vệ tài sản của người bị nạn;",
+        "score": 0.6594352126121521,
+        "metadata": {
+          "version": "original-2024",
+          "char_start": 955,
+          "printed_page": 52,
+          "chunk_method": "paragraph-800",
+          "char_end": 1736,
+          "section": "VII",
+          "document_id": "traffic-law-part2",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "language": "vi",
+          "page_offset": 344,
+          "page": 51,
+          "law_id": "36/2024/QH15"
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "59c2092fedc99d225d6589346e08b3f5",
+        "text": "Điều 82. Cứu nạn, cứu hộ khi xảy ra vụ tai nạn giao thông đường bộ\n\n1. Cơ quan Công an chủ trì, phối hợp với các cơ quan, tổ chức, cá nhân có liên quan tổ chức lực lượng và công cụ, phương tiện nhanh chóng có mặt tại hiện trường để cứu nạn, cứu hộ. Căn cứ vào tính chất, mức độ, hậu quả vụ tai nạn giao thông đường bộ, cơ quan Công an có trách nhiệm báo cáo cơ quan có thẩm quyền để huy động lực lượng, phương tiện giải quyết vụ tai nạn giao thông đường bộ trong trường hợp cần thiết.\n\n2. Cơ sở khám bệnh, chữa bệnh phải bố trí, phân công người, phương tiện sẵn sàng và nhanh chóng có mặt tại hiện trường để sơ cứu, vận chuyển, cấp cứu nạn nhân sau khi tiếp nhận tin báo vụ tai nạn giao thông đường bộ; hỗ trợ, cứu chữa nạn nhân bị tai nạn giao thông đường bộ trong mọi trường hợp.",
+        "score": 0.6397515535354614,
+        "metadata": {
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "law_id": "36/2024/QH15",
+          "language": "vi",
+          "char_end": 781,
+          "section": "VII",
+          "version": "original-2024",
+          "char_start": 0,
+          "printed_page": 54,
+          "chunk_method": "paragraph-800",
+          "page": 53,
+          "document_id": "traffic-law-part2",
+          "page_offset": 0
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "bc6aef49015f2fd134d26385eb3a10f4",
+        "text": "3. Người được quy định tại khoản 1 và khoản 2 Điều này chỉ được sử dụng phương tiện liên quan đến vụ tai nạn giao thông đường bộ để đưa nạn nhân đi cấp cứu trong trường hợp không có phương tiện nào khác nhưng phải xác định vị trí phương tiện, vị trí nạn nhân tại hiện trường, không được làm thay đổi, mất dấu vết liên quan đến vụ tai nạn giao thông đường bộ. Trường hợp có người chết phải giữ nguyên hiện trường và che đậy thi thể.\n\n4. Người điều khiển phương tiện tham gia giao thông đường bộ khác khi đi qua nơi xảy ra vụ tai nạn giao thông đường bộ có trách nhiệm chở người bị thương đi cấp cứu. Xe ưu tiên, xe chở người được hưởng quyền ưu đãi, miễn trừ ngoại giao không bắt buộc thực hiện quy định tại khoản này.",
+        "score": 0.6389933824539185,
+        "metadata": {
+          "document_id": "traffic-law-part2",
+          "law_id": "36/2024/QH15",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "char_start": 0,
+          "section": "VII",
+          "char_end": 717,
+          "chunk_method": "paragraph-800",
+          "page": 52,
+          "printed_page": 53,
+          "version": "original-2024",
+          "language": "vi",
+          "page_offset": 0
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "VII"
+    },
+    "search_seconds": 0.0024985000000015134,
+    "executed_at_utc": "2026-11-13T14:03:12.733949+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "question_id": "Q20",
+    "split": "test",
+    "question": "Theo Chương IX về điều khoản thi hành, giấy phép lái xe cấp trước ngày luật này có hiệu lực có tiếp tục dùng được không và theo thời hạn nào?",
+    "expected_answer": "Được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.",
+    "gold": [
+      {
+        "gold_source_id": "traffic-law-part2",
+        "gold_page": 58,
+        "evidence_quote": "1. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe."
+      }
+    ],
+    "requested_filter": {
+      "section": "IX"
+    },
+    "hits": [
+      {
+        "chunk_id": "9831be38257692e7bd7dc9917e74e120",
+        "text": "Điều 88. Hiệu lực thi hành\n\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ trường hợp quy định tại khoản 2 Điều này.\n\n2. Khoản 3 Điều 10 của Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n\n3. Luật Giao thông đường bộ số 23/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 và Luật số 44/2019/QH14 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại các khoản 1, 2, 5 và 6 Điều 89 của Luật này.\n\n4. Nghị quyết số 73/2022/QH15 của Quốc hội về thí điểm đấu giá biển số xe ô tô hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 7 Điều 89 của Luật này.",
+        "score": 0.7580971717834473,
+        "metadata": {
+          "page_offset": 333,
+          "chunk_method": "paragraph-800",
+          "printed_page": 59,
+          "law_id": "36/2024/QH15",
+          "version": "original-2024",
+          "language": "vi",
+          "char_end": 1038,
+          "document_id": "traffic-law-part2",
+          "section": "IX",
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "page": 58,
+          "char_start": 365
+        },
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "07bac735b6bae35e7f1c92f18888328e",
+        "text": "Điều 89. Quy định chuyển tiếp\n\n1. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.\n\n2. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành nếu chưa thực hiện đổi, cấp lại theo quy định của Luật này có hiệu lực sử dụng như sau:\n\na) Giấy phép lái xe hạng A1 được tiếp tục điều khiển xe mô tô hai bánh có dung tích xi-lanh từ 50 cm3 đến dưới 175 cm3 hoặc có công suất động cơ điện từ 04 kW đến dưới 14 kW;\n\nb) Giấy phép lái xe hạng A2 được tiếp tục điều khiển xe mô tô hai bánh có dung tích xi-lanh từ 175 cm3 trở lên hoặc có công suất động cơ điện từ 14 kW trở lên và các loại xe quy định cho giấy phép lái xe hạng A1 quy định tại điểm a khoản này;",
+        "score": 0.7440711259841919,
+        "metadata": {
+          "version": "original-2024",
+          "char_end": 1782,
+          "language": "vi",
+          "law_id": "36/2024/QH15",
+          "char_start": 1040,
+          "printed_page": 59,
+          "page": 58,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "chunk_method": "paragraph-800",
+          "page_offset": 333,
+          "section": "IX",
+          "document_id": "traffic-law-part2"
+        },
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "f395d93c6a59bcaab009f9cef1f9b97c",
+        "text": "3. Trường hợp người có giấy phép lái xe đã được cấp trước ngày Luật này có hiệu lực thi hành có nhu cầu đổi, cấp lại giấy phép lái xe thì thực hiện như sau:\n\na) Giấy phép lái xe hạng A1 được đổi, cấp lại sang giấy phép lái xe hạng A với điều kiện hạn chế là chỉ được điều khiển xe mô tô hai bánh có dung tích xi-lanh đến dưới 175 cm3 hoặc có công suất động cơ điện đến dưới 14 kW;\n\nb) Giấy phép lái xe hạng A2 được đổi, cấp lại sang giấy phép lái xe hạng A;\n\nc) Giấy phép lái xe hạng A3 được đổi, cấp lại sang giấy phép lái xe hạng B1;\n\nd) Giấy phép lái xe hạng A4 được đổi, cấp lại sang chứng chỉ điều khiển xe máy chuyên dùng cho người điều khiển máy kéo có trọng tải đến 1.000 kg và chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ cho người điều khiển xe máy chuyên dùng;",
+        "score": 0.7379503846168518,
+        "metadata": {
+          "version": "original-2024",
+          "char_end": 789,
+          "section": "IX",
+          "language": "vi",
+          "document_id": "traffic-law-part2",
+          "char_start": 0,
+          "page": 60,
+          "chunk_method": "paragraph-800",
+          "printed_page": 61,
+          "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15_tiep.pdf",
+          "law_id": "36/2024/QH15",
+          "page_offset": 0
+        },
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "IX"
+    },
+    "search_seconds": 0.0026792999997269362,
+    "executed_at_utc": "2026-11-13T14:03:12.736969+00:00",
+    "grounding_score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "reviewer": "Codex AI",
+  "human_status": "pending_human",
+  "changes": [
+    {
+      "dimension": "coherence",
+      "strategy": "A",
+      "sample_id": "P04",
+      "old_ai_score": 0,
+      "new_ai_score": 1,
+      "reason": "Đọc lại toàn chunk: vẫn có chủ thể và các nội dung khen thưởng, bồi thường tài sản, khôi phục danh dự. Mất phần cuối về người bị thương nên hiểu một phần, phù hợp mức 1 thay vì không hiểu được ở mức 0.",
+      "effect": "Coherence AI trung bình của A: 0.80 -> 0.90 /2. Retrieval metrics, corpus, benchmark, frozen plan và lựa chọn chiến lược không thay đổi. Đây là sửa nhãn nháp sau review, không phải chấm thủ công của học viên."
+    }
+  ]
+}

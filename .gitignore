@@ -8,3 +8,10 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+artifacts/models/
+artifacts/cache/
+artifacts/chroma/
+artifacts/*chroma*/
+artifacts/runs/
+.local-cleanup/
+*.log

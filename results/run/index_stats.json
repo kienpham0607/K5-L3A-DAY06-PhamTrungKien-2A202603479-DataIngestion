@@ -1,0 +1,96 @@
+[
+  {
+    "strategy": "A",
+    "chunk_count": 397,
+    "total_characters": 179716,
+    "min_characters": 51,
+    "median_characters": 499,
+    "max_characters": 500,
+    "p95_characters": 500,
+    "total_input_tokens_untruncated": 46767,
+    "max_input_tokens": 160,
+    "truncated_chunks": 0,
+    "max_seq_length": 256,
+    "embedding_cache_hit": false,
+    "ingest_seconds": 8.645002899999781,
+    "model_load_seconds_shared": 14.651354399999946,
+    "reload_seconds": 0.3698506999999154,
+    "first_upsert": {
+      "before": 0,
+      "after": 397,
+      "removed_stale": 0
+    },
+    "repeat_upsert": {
+      "before": 397,
+      "after": 397,
+      "removed_stale": 0
+    },
+    "api_cost_usd": 0,
+    "metric": "cosine",
+    "index": "Chroma HNSW approximate",
+    "model_dimensions": 384
+  },
+  {
+    "strategy": "B",
+    "chunk_count": 310,
+    "total_characters": 164036,
+    "min_characters": 30,
+    "median_characters": 598,
+    "max_characters": 799,
+    "p95_characters": 783,
+    "total_input_tokens_untruncated": 42364,
+    "max_input_tokens": 232,
+    "truncated_chunks": 0,
+    "max_seq_length": 256,
+    "embedding_cache_hit": false,
+    "ingest_seconds": 7.451940500000092,
+    "model_load_seconds_shared": 14.651354399999946,
+    "reload_seconds": 0.2826255999998466,
+    "first_upsert": {
+      "before": 0,
+      "after": 310,
+      "removed_stale": 0
+    },
+    "repeat_upsert": {
+      "before": 310,
+      "after": 310,
+      "removed_stale": 0
+    },
+    "api_cost_usd": 0,
+    "metric": "cosine",
+    "index": "Chroma HNSW approximate",
+    "model_dimensions": 384
+  },
+  {
+    "strategy": "C",
+    "chunk_count": 310,
+    "total_characters": 164036,
+    "min_characters": 30,
+    "median_characters": 598,
+    "max_characters": 799,
+    "p95_characters": 783,
+    "total_input_tokens_untruncated": 42364,
+    "max_input_tokens": 232,
+    "truncated_chunks": 0,
+    "max_seq_length": 256,
+    "embedding_cache_hit": true,
+    "ingest_seconds": 0,
+    "model_load_seconds_shared": 14.651354399999946,
+    "reload_seconds": 0,
+    "first_upsert": {
+      "before": 0,
+      "after": 310,
+      "removed_stale": 0
+    },
+    "repeat_upsert": {
+      "before": 310,
+      "after": 310,
+      "removed_stale": 0
+    },
+    "api_cost_usd": 0,
+    "metric": "cosine",
+    "index": "Chroma HNSW approximate",
+    "model_dimensions": 384,
+    "shared_index": "B"
+  }
+]

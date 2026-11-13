@@ -1,0 +1,21 @@
+{
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "dimensions": 384,
+  "max_seq_length": 256,
+  "device": "cpu",
+  "seed": 42,
+  "top_k": 3,
+  "strategies": {
+    "A": {"chunking": "fixed", "size": 500, "overlap": 50, "use_filter": false},
+    "B": {"chunking": "paragraph", "max_size": 800, "overlap": 0, "use_filter": false},
+    "C": {"chunking": "paragraph", "max_size": 800, "overlap": 0, "use_filter": true}
+  },
+  "selection_rule": "Highest dev Evidence Hit@3 count, then dev Hit@1 count, then fewer indexed chunks, then alphabetical strategy ID. No test labels or test scores used.",
+  "audit_rule": "First 10 physical content pages sorted by document_id then page; anchor at floor(normalized page length/2); choose earliest char_start chunk covering anchor. Same positions for A/B/C.",
+  "hypotheses": {
+    "A": "Fixed windows are simple but may cut conditions and legal clauses.",
+    "B": "Paragraph packing should preserve legal clauses better; longer chunks may dilute embeddings.",
+    "C": "Chapter filters supplied in questions may remove off-topic matches; cannot repair broken evidence. C reuses B index and document embeddings."
+  }
+}

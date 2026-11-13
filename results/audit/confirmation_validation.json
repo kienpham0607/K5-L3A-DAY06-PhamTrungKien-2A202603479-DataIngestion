@@ -1,0 +1,17 @@
+{
+  "verified_counts": {
+    "coherence": 30,
+    "grounding": 15,
+    "metadata": 45,
+    "evidence": 20
+  },
+  "negative_checks": {
+    "changed_source_hash": true,
+    "incomplete_scope": true
+  },
+  "report_template_headings_match": true,
+  "frozen_inputs_unchanged": true,
+  "human_status": "human_verified",
+  "pending_rows": 0,
+  "review_mode": "student_self_attested_source_review_and_acceptance_of_ai_drafts"
+}

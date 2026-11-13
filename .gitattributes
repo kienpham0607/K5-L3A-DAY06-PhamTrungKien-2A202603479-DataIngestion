@@ -1,0 +1,12 @@
+# Preserve bytes used by frozen JSON input hashes across Windows/Linux clones.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.sql text eol=lf
+*.ini text eol=lf
+*.pdf binary
+*.png binary

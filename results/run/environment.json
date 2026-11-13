@@ -1,0 +1,56 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "chromadb": "1.5.9",
+    "sentence-transformers": "6.3.0",
+    "transformers": "5.22.2",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "PyMuPDF": "2.1",
+    "huggingface-hub": "2.4.0"
+  },
+  "config": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "dimensions": 384,
+    "max_seq_length": 256,
+    "device": "cpu",
+    "seed": 42,
+    "top_k": 3,
+    "strategies": {
+      "A": {
+        "chunking": "fixed",
+        "size": 500,
+        "overlap": 50,
+        "use_filter": false
+      },
+      "B": {
+        "chunking": "paragraph",
+        "max_size": 800,
+        "overlap": 0,
+        "use_filter": false
+      },
+      "C": {
+        "chunking": "paragraph",
+        "max_size": 800,
+        "overlap": 0,
+        "use_filter": true
+      }
+    },
+    "selection_rule": "Highest dev Evidence Hit@3 count, then dev Hit@1 count, then fewer indexed chunks, then alphabetical strategy ID. No test labels or test scores used.",
+    "audit_rule": "First 10 physical content pages sorted by document_id then page; anchor at floor(normalized page length/2); choose earliest char_start chunk covering anchor. Same positions for A/B/C.",
+    "hypotheses": {
+      "A": "Fixed windows are simple but may cut conditions and legal clauses.",
+      "B": "Paragraph packing should preserve legal clauses better; longer chunks may dilute embeddings.",
+      "C": "Chapter filters supplied in questions may remove off-topic matches; cannot repair broken evidence. C reuses B index and document embeddings."
+    }
+  },
+  "started_at_utc": "2026-11-13T14:01:41.386412+00:00",
+  "inputs": {
+    "starter\\config.json": "6cfde5f6dd3b3b671e4a5e95b120295eb6e248f8aa1b7942421d81d63432653b",
+    "data\\manifest.json": "1c54a37e098626943b75e432483679740ef738adbe02b06d435b2e2a49a293f0",
+    "benchmark\\questions.json": "46e089d934abb0dd3c743fe81d10520d7e9c714c7f56ab1a2d3ef88fd28c6159"
+  },
+  "store_path": "D:\\Thực chiến AI\\Day6\\K5-L3A-DAY06-PhamTrungKien-2A202603479-DataIngestion\\artifacts\\chroma"
+}

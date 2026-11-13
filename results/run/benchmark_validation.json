@@ -1,0 +1,132 @@
+{
+  "splits": {
+    "dev": 15,
+    "test": 5
+  },
+  "filter_counts": {
+    "dev": 4,
+    "test": 3
+  },
+  "evidence_checks": [
+    {
+      "question_id": "Q01",
+      "source_id": "traffic-law-part1",
+      "page": 7,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q02",
+      "source_id": "traffic-law-part1",
+      "page": 1,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q03",
+      "source_id": "traffic-law-part1",
+      "page": 10,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q04",
+      "source_id": "traffic-law-part1",
+      "page": 11,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q05",
+      "source_id": "traffic-law-part1",
+      "page": 14,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q06",
+      "source_id": "traffic-law-part1",
+      "page": 14,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q07",
+      "source_id": "traffic-law-part1",
+      "page": 16,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q08",
+      "source_id": "traffic-law-part1",
+      "page": 16,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q09",
+      "source_id": "traffic-law-part1",
+      "page": 18,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q10",
+      "source_id": "traffic-law-part1",
+      "page": 19,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q11",
+      "source_id": "traffic-law-part1",
+      "page": 19,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q12",
+      "source_id": "traffic-law-part2",
+      "page": 5,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q13",
+      "source_id": "traffic-law-part2",
+      "page": 6,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q14",
+      "source_id": "traffic-law-part2",
+      "page": 33,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q15",
+      "source_id": "traffic-law-part2",
+      "page": 34,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q16",
+      "source_id": "traffic-law-part2",
+      "page": 2,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q17",
+      "source_id": "traffic-law-part2",
+      "page": 2,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q18",
+      "source_id": "traffic-law-part2",
+      "page": 39,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q19",
+      "source_id": "traffic-law-part2",
+      "page": 51,
+      "exact_evidence_present": true
+    },
+    {
+      "question_id": "Q20",
+      "source_id": "traffic-law-part2",
+      "page": 58,
+      "exact_evidence_present": true
+    }
+  ]
+}

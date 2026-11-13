@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,chunk_count,ingest_seconds,api_cost_usd,notes
+A,fixed,500,50,document_id;source;page;section;law_id;version;language;printed_page;char_start;char_end,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2@e8f8c211226b894fcb81acc59f3b34ba3efd5f42,Fixed windows are simple but may cut conditions and legal clauses.,4/15,10/15,3/5,4/5,397,8.645002899999781,0,Chosen on dev before test; Human audit verified; AI-assisted drafts accepted by student after source review
+B,paragraph,800,0,document_id;source;page;section;law_id;version;language;printed_page;char_start;char_end,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2@e8f8c211226b894fcb81acc59f3b34ba3efd5f42,Paragraph packing should preserve legal clauses better; longer chunks may dilute embeddings.,8/15,9/15,3/5,4/5,310,7.451940500000092,0,Human audit verified; AI-assisted drafts accepted by student after source review
+C,paragraph,800,0,document_id;source;page;section;law_id;version;language;printed_page;char_start;char_end,section from question only,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2@e8f8c211226b894fcb81acc59f3b34ba3efd5f42,Chapter filters supplied in questions may remove off-topic matches; cannot repair broken evidence. C reuses B index and document embeddings.,8/15,9/15,3/5,5/5,310,0,0,Shares B index; no extra document embedding; Human audit verified; AI-assisted drafts accepted by student after source review

@@ -1,0 +1,46 @@
+{
+  "status": "human_verified",
+  "pending_rows": 0,
+  "required_rows": 90,
+  "manual_metrics": [
+    {
+      "strategy": "A",
+      "coherence_mean": 0.9,
+      "grounding_distribution": {
+        "1": 1,
+        "2": 4
+      },
+      "grounding_mean": 1.8,
+      "metadata_correct": 15,
+      "metadata_n": 15
+    },
+    {
+      "strategy": "B",
+      "coherence_mean": 1.5,
+      "grounding_distribution": {
+        "2": 4,
+        "0": 1
+      },
+      "grounding_mean": 1.6,
+      "metadata_correct": 15,
+      "metadata_n": 15
+    },
+    {
+      "strategy": "C",
+      "coherence_mean": 1.5,
+      "grounding_distribution": {
+        "2": 5
+      },
+      "grounding_mean": 2.0,
+      "metadata_correct": 15,
+      "metadata_n": 15
+    }
+  ],
+  "reviewers": [
+    "Phạm Trung Kiên"
+  ],
+  "confirmation_record": "results/audit/human_confirmation.json",
+  "review_mode": "student_self_attested_source_review_and_acceptance_of_ai_drafts",
+  "ai_assisted": true,
+  "independent_blind_review": false
+}

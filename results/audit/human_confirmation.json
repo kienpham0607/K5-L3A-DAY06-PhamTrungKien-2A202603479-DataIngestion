@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-11-13T15:36:23+00:00",
+  "reviewer": "Phạm Trung Kiên",
+  "student_id": "2A202603479",
+  "source": "Explicit student reply in this conversation to the review-scope question",
+  "question": "Hai bản đối chiếu đã có tại results/audit/EVIDENCE_REVIEW.md và results/audit/AUDIT_REVIEW.md, gồm nguồn PDF, từng câu/mẫu và nhãn AI đề xuất. Bạn đã tự đọc và đối chiếu đến đâu? Tôi chỉ ghi nhận học viên xác nhận theo phạm vi bạn thực sự đã xem.",
+  "student_statement": "Đã đối chiếu 20 câu và đủ 90 mẫu; đồng ý các đề xuất",
+  "confirmed_scopes": {
+    "evidence_questions": 20,
+    "coherence_records": 30,
+    "grounding_records": 15,
+    "metadata_records": 45
+  },
+  "review_mode": "student_self_attested_source_review_and_acceptance_of_ai_drafts",
+  "ai_assisted": true,
+  "independent_blind_review": false,
+  "notes": "Codex nhập nhãn theo xác nhận rõ ràng của học viên, giữ bản nháp AI riêng. Đây là ghi nhận lời xác nhận của học viên trong hội thoại, không phải chữ ký số hay chứng thực độc lập. Thời điểm trên là lúc ghi nhận sau phản hồi, không phải thời điểm học viên bắt đầu hoặc kết thúc đọc.",
+  "reviewed_artifact_sha256": {
+    "benchmark/questions.json": "46e089d934abb0dd3c743fe81d10520d7e9c714c7f56ab1a2d3ef88fd28c6159",
+    "benchmark/frozen_plan.json": "6c0e71128e313e1c813b9740c1aa0291ae01c9360097d707c1294c50942b496b",
+    "starter/config.json": "6cfde5f6dd3b3b671e4a5e95b120295eb6e248f8aa1b7942421d81d63432653b",
+    "data/manifest.json": "1c54a37e098626943b75e432483679740ef738adbe02b06d435b2e2a49a293f0",
+    "data/raw/36-2024-qh15-part1.pdf": "e83b092fd1e93a63d3082424bd63e7ad99afcf39ba3729f6d82ce19fe8b33690",
+    "data/raw/36-2024-qh15-part2.pdf": "55ba152f3abe925d9a75418c3e61bc0122824db41a0d2352053dbff2c6264f8c",
+    "results/audit/review_corrections.json": "189c2268e25fd74140a65268c423a1a46aefac13d149319dd6111acc8c59592c",
+    "results/audit/ai_coherence.csv": "a9ca118069622e2ef0df51e8ac3231b9f18d582a46a1d329e261df6d4e4f38f6",
+    "results/audit/ai_grounding.csv": "35132c1842278f335ff80a230e4097aeb3e0ce40d7ca57c619fd1389a4dae412",
+    "results/audit/ai_metadata.csv": "ba4a39750001109df94c992f3971b1c6351e2c2461150f46ee0ac2d5f9acea05"
+  }
+}

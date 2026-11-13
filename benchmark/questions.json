@@ -1,0 +1,162 @@
+[
+  {
+    "id": "Q01", "split": "dev", "type": "metadata",
+    "question": "Trong Chương I về những quy định chung, hành vi lái phương tiện có nồng độ cồn trong máu hoặc hơi thở có bị nghiêm cấm không?",
+    "expected_answer": "Có. Điều 9 khoản 2 nghiêm cấm điều khiển phương tiện khi trong máu hoặc hơi thở có nồng độ cồn.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 7,
+    "evidence_quote": "2. Điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn.",
+    "filter": {"section": "I"}, "filter_origin": "Phạm vi Chương I được nêu trực tiếp trong câu hỏi trước retrieval."
+  },
+  {
+    "id": "Q02", "split": "dev", "type": "direct",
+    "question": "Làn đường được định nghĩa như thế nào?",
+    "expected_answer": "Là phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 1,
+    "evidence_quote": "6. Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn.",
+    "filter": {}
+  },
+  {
+    "id": "Q03", "split": "dev", "type": "exception",
+    "question": "Theo bản luật gốc, khi chở trẻ dưới 10 tuổi và thấp hơn 1,35 mét trên ô tô, quy tắc về hàng ghế và thiết bị an toàn là gì, có ngoại lệ nào?",
+    "expected_answer": "Không ngồi cùng hàng ghế người lái, trừ ô tô chỉ có một hàng ghế; người lái phải sử dụng và hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 10,
+    "evidence_quote": "3. Khi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô không được cho trẻ em ngồi cùng hàng ghế với người lái xe, trừ loại xe ô tô chỉ có một hàng ghế; người lái xe phải sử dụng, hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ em.",
+    "filter": {}
+  },
+  {
+    "id": "Q04", "split": "dev", "type": "paraphrase",
+    "question": "Hiệu lệnh người điều khiển giao thông, đèn giao thông, biển báo và vạch đường có thứ tự ưu tiên ra sao?",
+    "expected_answer": "Theo thứ tự: hiệu lệnh người điều khiển giao thông, tín hiệu đèn, biển báo, rồi vạch kẻ đường và dấu hiệu khác trên mặt đường.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 11,
+    "evidence_quote": "2. Người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ theo thứ tự ưu tiên từ trên xuống dưới như sau: a) Hiệu lệnh của người điều khiển giao thông; b) Tín hiệu đèn giao thông; c) Biển báo hiệu đường bộ; d) Vạch kẻ đường và các dấu hiệu khác trên mặt đường;",
+    "filter": {}
+  },
+  {
+    "id": "Q05", "split": "dev", "type": "condition",
+    "question": "Trên đường nhiều làn cùng chiều có vạch phân làn, mỗi lần chuyển làn được chuyển mấy làn và phải bảo đảm những điều kiện nào?",
+    "expected_answer": "Chỉ chuyển ở nơi cho phép, mỗi lần một làn liền kề, có tín hiệu báo trước và quan sát khoảng cách an toàn phía trước, sau, hai bên.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 14,
+    "evidence_quote": "2. Trên đường có nhiều làn đường cho xe đi cùng chiều được phân biệt bằng vạch kẻ phân làn đường, người điều khiển phương tiện tham gia giao thông đường bộ phải cho xe đi trong một làn đường và chỉ được chuyển làn đường ở những nơi cho phép; mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề; khi chuyển làn đường phải có tín hiệu báo trước; phải quan sát bảo đảm khoảng cách an toàn với xe phía trước, phía sau và hai bên mới được chuyển làn.",
+    "filter": {}
+  },
+  {
+    "id": "Q06", "split": "dev", "type": "exception",
+    "question": "Vượt xe thường phải vượt bên nào và những trường hợp nào được vượt bên phải?",
+    "expected_answer": "Vượt bên trái; được vượt phải khi xe trước có tín hiệu rẽ trái hoặc đang rẽ trái, hoặc xe chuyên dùng làm việc trên đường không thể vượt trái.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 14,
+    "evidence_quote": "2. Khi vượt các xe phải vượt bên trái; trường hợp khi xe phía trước có tín hiệu rẽ trái hoặc đang rẽ trái hoặc khi xe chuyên dùng đang làm việc trên đường mà không thể vượt bên trái thì được vượt về bên phải.",
+    "filter": {}
+  },
+  {
+    "id": "Q07", "split": "dev", "type": "direct",
+    "question": "Luật cấm lùi xe ở những nơi nào?",
+    "expected_answer": "Đường một chiều, khu vực cấm dừng, phần đường người đi bộ qua đường, nơi đường bộ giao nhau hoặc giao cùng mức đường sắt, nơi tầm nhìn bị che khuất, hầm đường bộ và cao tốc.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 16,
+    "evidence_quote": "2. Không được lùi xe ở đường một chiều, khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất, trong hầm đường bộ, trên đường cao tốc.",
+    "filter": {}
+  },
+  {
+    "id": "Q08", "split": "dev", "type": "paraphrase",
+    "question": "Khi tránh nhau trên dốc, xe đang xuống hay xe đang lên phải nhường?",
+    "expected_answer": "Xe xuống dốc nhường đường cho xe lên dốc.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 16,
+    "evidence_quote": "b) Xe xuống dốc phải nhường đường cho xe lên dốc;",
+    "filter": {}
+  },
+  {
+    "id": "Q09", "split": "dev", "type": "condition",
+    "question": "Người lái xe phải bật đèn chiếu sáng phía trước vào khung giờ nào và khi thời tiết ra sao?",
+    "expected_answer": "Từ 18 giờ hôm trước đến 06 giờ hôm sau hoặc khi sương mù, khói, bụi, trời mưa, thời tiết xấu hạn chế tầm nhìn.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 18,
+    "evidence_quote": "1. Người lái xe, người điều khiển xe máy chuyên dùng tham gia giao thông đường bộ phải bật đèn chiếu sáng phía trước trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn.",
+    "filter": {}
+  },
+  {
+    "id": "Q10", "split": "dev", "type": "exception",
+    "question": "Trong khu đông dân cư và khu vực cơ sở khám chữa bệnh, không được dùng còi vào thời gian nào, trừ xe nào?",
+    "expected_answer": "Từ 22 giờ hôm trước đến 05 giờ hôm sau, trừ xe ưu tiên.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 19,
+    "evidence_quote": "2. Không sử dụng còi liên tục; không sử dụng còi có âm lượng không đúng quy định; không sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ xe ưu tiên.",
+    "filter": {}
+  },
+  {
+    "id": "Q11", "split": "dev", "type": "paraphrase",
+    "question": "Tại giao lộ có báo hiệu đi theo vòng xuyến thì nhường xe tới từ bên nào?",
+    "expected_answer": "Nhường xe đi đến từ bên trái.",
+    "gold_source_id": "traffic-law-part1", "gold_page": 19,
+    "evidence_quote": "3. Tại nơi đường giao nhau có báo hiệu đi theo vòng xuyến, phải nhường đường cho xe đi đến từ bên trái.",
+    "filter": {}
+  },
+  {
+    "id": "Q12", "split": "dev", "type": "condition",
+    "question": "Nếu đường không có vỉa hè, lề đường hay lối riêng cho người đi bộ thì người đi bộ phải đi ở đâu?",
+    "expected_answer": "Đi sát mép đường bên phải theo chiều đi của mình.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 5,
+    "evidence_quote": "a) Phải đi trên vỉa hè, lề đường, đường dành riêng cho người đi bộ; trường hợp đường không có vỉa hè, lề đường, đường dành riêng cho người đi bộ thì người đi bộ phải đi sát mép đường bên phải theo chiều đi của mình;",
+    "filter": {}
+  },
+  {
+    "id": "Q13", "split": "dev", "type": "metadata_exception",
+    "question": "Trong Chương II về quy tắc giao thông, xe đạp và xe đạp máy được chở bao nhiêu người, ngoại lệ khi chở thêm trẻ nhỏ là gì?",
+    "expected_answer": "Chở một người; nếu chở thêm một trẻ dưới 07 tuổi thì chở tối đa hai người.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 6,
+    "evidence_quote": "1. Người điều khiển xe đạp, xe đạp máy chỉ được chở một người, trừ trường hợp chở thêm một trẻ em dưới 07 tuổi thì được chở tối đa hai người.",
+    "filter": {"section": "II"}, "filter_origin": "Câu hỏi chỉ định Chương II, không lấy từ gold_source_id."
+  },
+  {
+    "id": "Q14", "split": "dev", "type": "metadata_condition",
+    "question": "Theo Chương IV về người điều khiển phương tiện, giấy phép chưa bị trừ hết điểm được phục hồi đủ 12 điểm khi nào?",
+    "expected_answer": "Nếu không bị trừ điểm trong 12 tháng kể từ lần bị trừ điểm gần nhất.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 33,
+    "evidence_quote": "2. Giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất thì được phục hồi đủ 12 điểm.",
+    "filter": {"section": "IV"}, "filter_origin": "Phạm vi Chương IV có trong câu hỏi."
+  },
+  {
+    "id": "Q15", "split": "dev", "type": "metadata_direct",
+    "question": "Trong Chương IV về người điều khiển phương tiện, bao nhiêu tuổi mới được điều khiển xe gắn máy?",
+    "expected_answer": "Đủ 16 tuổi trở lên.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 34,
+    "evidence_quote": "a) Người đủ 16 tuổi trở lên được điều khiển xe gắn máy;",
+    "filter": {"section": "IV"}, "filter_origin": "Phạm vi Chương IV nêu trực tiếp trước retrieval."
+  },
+  {
+    "id": "Q16", "split": "test", "type": "condition",
+    "question": "Trên cao tốc, khi xe gặp sự cố và không thể vào làn dừng khẩn cấp, phải cảnh báo phía sau cách tối thiểu bao xa và cần làm gì?",
+    "expected_answer": "Bật đèn khẩn cấp, đặt biển hoặc đèn cảnh báo sau xe ít nhất 150 mét và nhanh chóng báo Cảnh sát giao thông trên tuyến hoặc cơ quan quản lý cao tốc.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 2,
+    "evidence_quote": "trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc.",
+    "filter": {}
+  },
+  {
+    "id": "Q17", "split": "test", "type": "direct",
+    "question": "Khi đi trong hầm đường bộ, xe cơ giới, xe máy chuyên dùng và xe thô sơ phải sử dụng đèn thế nào?",
+    "expected_answer": "Xe cơ giới, xe máy chuyên dùng bật đèn chiếu gần; xe thô sơ bật đèn hoặc có vật phát sáng báo hiệu.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 2,
+    "evidence_quote": "1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu;",
+    "filter": {}
+  },
+  {
+    "id": "Q18", "split": "test", "type": "metadata_condition",
+    "question": "Trong Chương IV về người điều khiển phương tiện, thời gian lái xe ô tô kinh doanh vận tải và vận tải nội bộ tối đa mỗi ngày, mỗi tuần và liên tục là bao nhiêu?",
+    "expected_answer": "Không quá 10 giờ/ngày, 48 giờ/tuần, liên tục không quá 04 giờ; bảo đảm quy định liên quan của Bộ luật Lao động.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 39,
+    "evidence_quote": "1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan của Bộ luật Lao động.",
+    "filter": {"section": "IV"}, "filter_origin": "Chương IV được người hỏi cung cấp; không lấy từ đáp án hay trang gold."
+  },
+  {
+    "id": "Q19", "split": "test", "type": "metadata_exception",
+    "question": "Trong Chương VII về giải quyết tai nạn, người gây tai nạn hoặc liên quan phải ở lại hiện trường đến khi nào, trường hợp nào được rời đi và phải trình báo ở đâu?",
+    "expected_answer": "Ở lại đến khi Công an đến; được rời đi khi cấp cứu, đưa nạn nhân cấp cứu hoặc bị đe dọa tính mạng, sức khỏe, nhưng phải trình báo ngay Công an hoặc UBND gần nhất.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 51,
+    "evidence_quote": "b) Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất;",
+    "filter": {"section": "VII"}, "filter_origin": "Phạm vi Chương VII là thông tin đầu vào của câu hỏi."
+  },
+  {
+    "id": "Q20", "split": "test", "type": "metadata_transition",
+    "question": "Theo Chương IX về điều khoản thi hành, giấy phép lái xe cấp trước ngày luật này có hiệu lực có tiếp tục dùng được không và theo thời hạn nào?",
+    "expected_answer": "Được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.",
+    "gold_source_id": "traffic-law-part2", "gold_page": 58,
+    "evidence_quote": "1. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.",
+    "filter": {"section": "IX"}, "filter_origin": "Người hỏi chỉ định Chương IX trước retrieval."
+  }
+]

@@ -1,0 +1,872 @@
+[
+  {
+    "sample_id": "P01",
+    "document_id": "traffic-law-part1",
+    "page": 1,
+    "char_offset": 912,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "29e81e1f6dad353166063e3ae5988503",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 1,
+      "text": "ng bộ có trật tự, bảo đảm an toàn, thông suốt; được hình thành và điều chỉnh bởi các quy tắc, nguyên tắc, quy phạm pháp luật trong lĩnh vực giao thông đường bộ.\n\n2. Phương tiện giao thông đường bộ là các loại xe, bao gồm: phương tiện giao thông cơ giới đường bộ (sau đây gọi là xe cơ giới), phương tiện giao thông thô sơ đường bộ (sau đây gọi là xe thô sơ), xe máy chuyên dùng và các loại xe tương tự.\n\n3. Phương tiện tham gia giao thông đường bộ là phương tiện giao thông đường bộ tham gia giao thôn",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 258,
+        "printed_page": 76,
+        "char_start": 708,
+        "char_end": 1208,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P02",
+    "document_id": "traffic-law-part1",
+    "page": 2,
+    "char_offset": 1054,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "8773a4ee8a8033999a746f4ea9adde80",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 2,
+      "text": "ham gia giao thông đường bộ bị dồn ứ, di chuyển với tốc độ rất chậm hoặc không thể di chuyển được.\n\n12. Tai nạn giao thông đường bộ là va chạm liên quan đến người, phương tiện khi tham gia giao thông đường bộ, xảy ra ngoài ý muốn của người tham gia giao thông đường bộ, gây thiệt hại đến tính mạng, sức khỏe, tài sản của cá nhân hoặc tài sản của cơ quan, tổ chức.\n\n13. Thiết bị an toàn cho trẻ em là thiết bị có đủ khả năng bảo đảm an toàn cho trẻ em ở tư thế ngồi hoặc nằm trên xe ô tô, được thiết k",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 77,
+        "char_start": 900,
+        "char_end": 1400,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P03",
+    "document_id": "traffic-law-part1",
+    "page": 3,
+    "char_offset": 1014,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "ca25e52b9e80d7b7ba0a1de3f6175d0a",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 3,
+      "text": "ộ phải công khai, minh bạch và thuận lợi cho người dân.\n\n7. Công tác bảo đảm trật tự, an toàn giao thông đường bộ được thực hiện thống nhất trên cơ sở phân công, phân cấp, phù hợp với chức năng, nhiệm vụ và sự phối hợp chặt chẽ giữa các cơ quan, tổ chức, cá nhân có liên quan.\n\nĐiều 4. Chính sách của Nhà nước về trật tự, an toàn giao thông đường bộ\n\n1. Bảo đảm ngân sách nhà nước, cơ sở vật chất, phương tiện, thiết bị hiện đại, các điều kiện bảo đảm và nâng cao năng lực thực thi nhiệm vụ của lực l",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 78,
+        "char_start": 900,
+        "char_end": 1400,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P04",
+    "document_id": "traffic-law-part1",
+    "page": 4,
+    "char_offset": 1229,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "8571ee97684bd142747395f28b0eab23",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 4,
+      "text": "uật về giao thông đường bộ cho trẻ em, học sinh để hình thành, nâng cao ý thức tự bảo vệ bản thân và tự giác chấp hành pháp luật khi tham gia giao thông đường bộ.\n\n5. Cơ quan, tổ chức, cá nhân tham gia phối hợp, cộng tác, hỗ trợ, giúp đỡ cơ quan nhà nước thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông đường bộ, có thành tích thì được khen thưởng, bị thiệt hại về tài sản thì được đền bù; người bị tổn hại về danh dự, nhân phẩm thì được khôi phục; người bị thương, bị tổn hại về sức khỏe, tín",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 79,
+        "char_start": 900,
+        "char_end": 1400,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P05",
+    "document_id": "traffic-law-part1",
+    "page": 5,
+    "char_offset": 1073,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "1ec29e5bdb416efc4caef7a3397606a8",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 5,
+      "text": "n vị lực lượng vũ trang nhân dân, cơ quan, tổ chức, cơ sở giáo dục có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ cho đối tượng thuộc thẩm quyền quản lý.\n\n7. Thành viên trong gia đình có trách nhiệm tuyên truyền, nhắc nhở thành viên khác chấp hành pháp luật về trật tự, an toàn giao thông đường bộ, sử dụng dây đai an toàn, ghế dành cho trẻ em hoặc có người lớn ngồi cùng trẻ em phía sau khi chở trẻ em dưới 06 tuổi bằng xe gắn máy, xe mô tô.\n\nĐiều 6.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 80,
+        "char_start": 900,
+        "char_end": 1400,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P06",
+    "document_id": "traffic-law-part1",
+    "page": 6,
+    "char_offset": 883,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "d3e090d401aad25cec28ae08965b6249",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 6,
+      "text": "liệu về đào tạo, sát hạch, cấp giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ;\n\nd) Cơ sở dữ liệu về người điều khiển xe cơ giới, xe máy chuyên dùng;\n\nđ) Cơ sở dữ liệu về bảo hiểm của chủ xe cơ giới, xe máy chuyên dùng;\n\ne) Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ;\n\ng) Cơ sở dữ liệu về tai nạn giao thông đường bộ;\n\nh) Cơ sở dữ liệu về hành trình của phương tiện giao thông đường bộ, hình ảnh người lái xe theo quy định của",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 81,
+        "char_start": 451,
+        "char_end": 949,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P07",
+    "document_id": "traffic-law-part1",
+    "page": 7,
+    "char_offset": 936,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "559f751b1b56c5420c20831a9aca8afb",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 7,
+      "text": "chuyển giao công nghệ có liên quan đến trật tự, an toàn giao thông đường bộ;\n\nc) Đào tạo, tập huấn, nâng cao năng lực cho lực lượng bảo đảm trật tự, an toàn giao thông đường bộ;\n\nd) Tăng cường điều kiện vật chất để bảo đảm trật tự, an toàn giao thông đường bộ;\n\nđ) Giải quyết tai nạn giao thông đường bộ;\n\ne) Thực hiện nội dung hợp tác quốc tế khác theo quy định của pháp luật Việt Nam và điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n3. Bộ Công an chủ trì",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 82,
+        "char_start": 451,
+        "char_end": 950,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P08",
+    "document_id": "traffic-law-part1",
+    "page": 8,
+    "char_offset": 1086,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "41baa334b41b1a5cf78b91fe06bfbf4c",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 8,
+      "text": "áy chuyên dùng không bảo đảm quy định của pháp luật về chất lượng an toàn kỹ thuật và bảo vệ môi trường.\n\n10. Cải tạo xe ô tô loại khác thành xe ô tô chở người, trừ cải tạo thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh.\n\n11. Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng.\n\n12. Cố ý can thiệp, thay đổi phần mềm điều khiển củ",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 83,
+        "char_start": 900,
+        "char_end": 1400,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P09",
+    "document_id": "traffic-law-part1",
+    "page": 9,
+    "char_offset": 1019,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "e2928714e055c1ee1023c58d833d0c51",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 9,
+      "text": "t bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ.\n\n20. Đặt, để chướng ngại vật, vật cản khác trái phép trên đường bộ; rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ; làm rơi vãi đất đá, hàng hóa, vật liệu xây dựng, phế thải trên đường bộ; đổ, xả thải, làm rơi vãi hóa chất, chất thải gây mất an toàn giao thông đường bộ.\n\n21. Cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông t",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 84,
+        "char_start": 900,
+        "char_end": 1400,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P10",
+    "document_id": "traffic-law-part1",
+    "page": 10,
+    "char_offset": 1013,
+    "strategy": "A",
+    "chunk": {
+      "chunk_id": "940793a248e159faf27e2c28b1186a7a",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 10,
+      "text": "lái, phương tiện bay siêu nhẹ được cấp phép bay.\n\n28. Hành vi khác vi phạm quy tắc giao thông đường bộ quy định tại Chương II của Luật này.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 85,
+        "char_start": 901,
+        "char_end": 1040,
+        "chunk_method": "fixed-500-50"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P01",
+    "document_id": "traffic-law-part1",
+    "page": 1,
+    "char_offset": 912,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "eb0ede421e043fa8a2b1b2dfaa34d7e2",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 1,
+      "text": "Điều 2. Giải thích từ ngữ\n\n1. Trật tự, an toàn giao thông đường bộ là trạng thái giao thông trên đường bộ có trật tự, bảo đảm an toàn, thông suốt; được hình thành và điều chỉnh bởi các quy tắc, nguyên tắc, quy phạm pháp luật trong lĩnh vực giao thông đường bộ.\n\n2. Phương tiện giao thông đường bộ là các loại xe, bao gồm: phương tiện giao thông cơ giới đường bộ (sau đây gọi là xe cơ giới), phương tiện giao thông thô sơ đường bộ (sau đây gọi là xe thô sơ), xe máy chuyên dùng và các loại xe tương tự.\n\n3. Phương tiện tham gia giao thông đường bộ là phương tiện giao thông đường bộ tham gia giao thông trên đường bộ.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 258,
+        "printed_page": 76,
+        "char_start": 608,
+        "char_end": 1224,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P02",
+    "document_id": "traffic-law-part1",
+    "page": 2,
+    "char_offset": 1054,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "4aa34de6b07f5e77ebe7d0f187d27cda",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 2,
+      "text": "11. Ùn tắc giao thông đường bộ (sau đây gọi là ùn tắc giao thông) là tình trạng người, phương tiện tham gia giao thông đường bộ bị dồn ứ, di chuyển với tốc độ rất chậm hoặc không thể di chuyển được.\n\n12. Tai nạn giao thông đường bộ là va chạm liên quan đến người, phương tiện khi tham gia giao thông đường bộ, xảy ra ngoài ý muốn của người tham gia giao thông đường bộ, gây thiệt hại đến tính mạng, sức khỏe, tài sản của cá nhân hoặc tài sản của cơ quan, tổ chức.\n\n13. Thiết bị an toàn cho trẻ em là thiết bị có đủ khả năng bảo đảm an toàn cho trẻ em ở tư thế ngồi hoặc nằm trên xe ô tô, được thiết kế để giảm nguy cơ chấn thương cho người dùng trong trường hợp xảy ra va chạm hoặc xe ô tô giảm tốc độ đột ngột, bằng cách hạn chế sự di chuyển của cơ thể trẻ em.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 77,
+        "char_start": 800,
+        "char_end": 1561,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P03",
+    "document_id": "traffic-law-part1",
+    "page": 3,
+    "char_offset": 1014,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "093711d60db1680f7d118fcaba05f15a",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 3,
+      "text": "5. Mọi hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ phải được phát hiện, ngăn chặn kịp thời và phải bị xử lý nghiêm minh theo quy định của pháp luật.\n\n6. Hoạt động bảo đảm trật tự, an toàn giao thông đường bộ phải công khai, minh bạch và thuận lợi cho người dân.\n\n7. Công tác bảo đảm trật tự, an toàn giao thông đường bộ được thực hiện thống nhất trên cơ sở phân công, phân cấp, phù hợp với chức năng, nhiệm vụ và sự phối hợp chặt chẽ giữa các cơ quan, tổ chức, cá nhân có liên quan.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 78,
+        "char_start": 672,
+        "char_end": 1176,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P04",
+    "document_id": "traffic-law-part1",
+    "page": 4,
+    "char_offset": 1229,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "d4b150ac8bfb9d67f60a95353ce8fbd1",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 4,
+      "text": "5. Cơ quan, tổ chức, cá nhân tham gia phối hợp, cộng tác, hỗ trợ, giúp đỡ cơ quan nhà nước thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông đường bộ, có thành tích thì được khen thưởng, bị thiệt hại về tài sản thì được đền bù; người bị tổn hại về danh dự, nhân phẩm thì được khôi phục; người bị thương, bị tổn hại về sức khỏe, tính mạng thì bản thân, gia đình được hưởng chế độ, chính sách theo quy định của pháp luật.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 79,
+        "char_start": 1064,
+        "char_end": 1488,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P05",
+    "document_id": "traffic-law-part1",
+    "page": 5,
+    "char_offset": 1073,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "27947c86ed83a05960908b522ce947d4",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 5,
+      "text": "5. Bộ, cơ quan ngang Bộ, Ủy ban nhân dân các cấp, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ, có hình thức tuyên truyền, phổ biến phù hợp với từng đối tượng.\n\n6. Đơn vị lực lượng vũ trang nhân dân, cơ quan, tổ chức, cơ sở giáo dục có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ cho đối tượng thuộc thẩm quyền quản lý.\n\n7. Thành viên trong gia đình có trách nhiệm tuyên truyền, nhắc nhở thành viên khác chấp hành pháp luật về trật tự, an toàn giao thông đường bộ, sử dụng dây đai an toàn, ghế dành cho trẻ em hoặc có người lớn ngồi cùng trẻ em phía sau khi chở trẻ em dưới 06 tuổi bằng xe gắn máy, xe mô tô.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 80,
+        "char_start": 639,
+        "char_end": 1391,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P06",
+    "document_id": "traffic-law-part1",
+    "page": 6,
+    "char_offset": 883,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "2861c372477031dbc6c3cad79bf66691",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 6,
+      "text": "Điều 7. Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ\n\n1. Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ bao gồm:\n\na) Cơ sở dữ liệu về đăng ký, quản lý xe cơ giới, xe máy chuyên dùng;\n\nb) Cơ sở dữ liệu về đăng kiểm xe cơ giới, xe máy chuyên dùng;\n\nc) Cơ sở dữ liệu về đào tạo, sát hạch, cấp giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ;\n\nd) Cơ sở dữ liệu về người điều khiển xe cơ giới, xe máy chuyên dùng;\n\nđ) Cơ sở dữ liệu về bảo hiểm của chủ xe cơ giới, xe máy chuyên dùng;\n\ne) Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ;\n\ng) Cơ sở dữ liệu về tai nạn giao thông đường bộ;\n\nh) Cơ sở dữ liệu về hành trình của phương tiện giao thông đường bộ, hình ảnh người lái xe theo quy định của Luật này;",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 81,
+        "char_start": 176,
+        "char_end": 959,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P07",
+    "document_id": "traffic-law-part1",
+    "page": 7,
+    "char_offset": 936,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "321f72fb15ca5a232068a5be8600247c",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 7,
+      "text": "e) Thực hiện nội dung hợp tác quốc tế khác theo quy định của pháp luật Việt Nam và điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n3. Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan giúp Chính phủ đàm phán, ký kết điều ước quốc tế, thỏa thuận quốc tế hoặc đề xuất cấp có thẩm quyền ký kết điều ước quốc tế, thỏa thuận quốc tế về trật tự, an toàn giao thông đường bộ; chủ trì, phối hợp với các Bộ, ngành liên quan thực hiện hợp tác quốc tế về trật tự, an toàn giao thông đường bộ.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 82,
+        "char_start": 757,
+        "char_end": 1286,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P08",
+    "document_id": "traffic-law-part1",
+    "page": 8,
+    "char_offset": 1086,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "3f991c4b16e0392fac9de20e981d96bf",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 8,
+      "text": "8. Đưa xe cơ giới, xe máy chuyên dùng không bảo đảm quy định của pháp luật về an toàn kỹ thuật và bảo vệ môi trường, phương tiện khác không đủ điều kiện theo quy định của pháp luật để tham gia giao thông đường bộ.\n\n9. Nhập khẩu, sản xuất, lắp ráp xe cơ giới, xe máy chuyên dùng không bảo đảm quy định của pháp luật về chất lượng an toàn kỹ thuật và bảo vệ môi trường.\n\n10. Cải tạo xe ô tô loại khác thành xe ô tô chở người, trừ cải tạo thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh.\n\n11. Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 83,
+        "char_start": 637,
+        "char_end": 1347,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P09",
+    "document_id": "traffic-law-part1",
+    "page": 9,
+    "char_offset": 1019,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "9308d00226440292caea4d1a017e64c6",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 9,
+      "text": "19. Hủy hoại, làm hư hỏng, làm mất tác dụng thiết bị điều khiển, giám sát giao thông đường bộ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ.\n\n20. Đặt, để chướng ngại vật, vật cản khác trái phép trên đường bộ; rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ; làm rơi vãi đất đá, hàng hóa, vật liệu xây dựng, phế thải trên đường bộ; đổ, xả thải, làm rơi vãi hóa chất, chất thải gây mất an toàn giao thông đường bộ.\n\n21. Cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 84,
+        "char_start": 801,
+        "char_end": 1413,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P10",
+    "document_id": "traffic-law-part1",
+    "page": 10,
+    "char_offset": 1013,
+    "strategy": "B",
+    "chunk": {
+      "chunk_id": "e0d6e6d7f23b212371d6ab55ee1f0b4e",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 10,
+      "text": "27. Điều khiển vật thể bay, tàu bay không người lái, phương tiện bay siêu nhẹ hoạt động trong phạm vi khổ giới hạn đường bộ gây cản trở hoặc nguy cơ mất an toàn cho người, phương tiện tham gia giao thông đường bộ, trừ tàu bay không người lái, phương tiện bay siêu nhẹ được cấp phép bay.\n\n28. Hành vi khác vi phạm quy tắc giao thông đường bộ quy định tại Chương II của Luật này.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 85,
+        "char_start": 663,
+        "char_end": 1040,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P01",
+    "document_id": "traffic-law-part1",
+    "page": 1,
+    "char_offset": 912,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "eb0ede421e043fa8a2b1b2dfaa34d7e2",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 1,
+      "text": "Điều 2. Giải thích từ ngữ\n\n1. Trật tự, an toàn giao thông đường bộ là trạng thái giao thông trên đường bộ có trật tự, bảo đảm an toàn, thông suốt; được hình thành và điều chỉnh bởi các quy tắc, nguyên tắc, quy phạm pháp luật trong lĩnh vực giao thông đường bộ.\n\n2. Phương tiện giao thông đường bộ là các loại xe, bao gồm: phương tiện giao thông cơ giới đường bộ (sau đây gọi là xe cơ giới), phương tiện giao thông thô sơ đường bộ (sau đây gọi là xe thô sơ), xe máy chuyên dùng và các loại xe tương tự.\n\n3. Phương tiện tham gia giao thông đường bộ là phương tiện giao thông đường bộ tham gia giao thông trên đường bộ.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 258,
+        "printed_page": 76,
+        "char_start": 608,
+        "char_end": 1224,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P02",
+    "document_id": "traffic-law-part1",
+    "page": 2,
+    "char_offset": 1054,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "4aa34de6b07f5e77ebe7d0f187d27cda",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 2,
+      "text": "11. Ùn tắc giao thông đường bộ (sau đây gọi là ùn tắc giao thông) là tình trạng người, phương tiện tham gia giao thông đường bộ bị dồn ứ, di chuyển với tốc độ rất chậm hoặc không thể di chuyển được.\n\n12. Tai nạn giao thông đường bộ là va chạm liên quan đến người, phương tiện khi tham gia giao thông đường bộ, xảy ra ngoài ý muốn của người tham gia giao thông đường bộ, gây thiệt hại đến tính mạng, sức khỏe, tài sản của cá nhân hoặc tài sản của cơ quan, tổ chức.\n\n13. Thiết bị an toàn cho trẻ em là thiết bị có đủ khả năng bảo đảm an toàn cho trẻ em ở tư thế ngồi hoặc nằm trên xe ô tô, được thiết kế để giảm nguy cơ chấn thương cho người dùng trong trường hợp xảy ra va chạm hoặc xe ô tô giảm tốc độ đột ngột, bằng cách hạn chế sự di chuyển của cơ thể trẻ em.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 77,
+        "char_start": 800,
+        "char_end": 1561,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P03",
+    "document_id": "traffic-law-part1",
+    "page": 3,
+    "char_offset": 1014,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "093711d60db1680f7d118fcaba05f15a",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 3,
+      "text": "5. Mọi hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ phải được phát hiện, ngăn chặn kịp thời và phải bị xử lý nghiêm minh theo quy định của pháp luật.\n\n6. Hoạt động bảo đảm trật tự, an toàn giao thông đường bộ phải công khai, minh bạch và thuận lợi cho người dân.\n\n7. Công tác bảo đảm trật tự, an toàn giao thông đường bộ được thực hiện thống nhất trên cơ sở phân công, phân cấp, phù hợp với chức năng, nhiệm vụ và sự phối hợp chặt chẽ giữa các cơ quan, tổ chức, cá nhân có liên quan.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 78,
+        "char_start": 672,
+        "char_end": 1176,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P04",
+    "document_id": "traffic-law-part1",
+    "page": 4,
+    "char_offset": 1229,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "d4b150ac8bfb9d67f60a95353ce8fbd1",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 4,
+      "text": "5. Cơ quan, tổ chức, cá nhân tham gia phối hợp, cộng tác, hỗ trợ, giúp đỡ cơ quan nhà nước thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông đường bộ, có thành tích thì được khen thưởng, bị thiệt hại về tài sản thì được đền bù; người bị tổn hại về danh dự, nhân phẩm thì được khôi phục; người bị thương, bị tổn hại về sức khỏe, tính mạng thì bản thân, gia đình được hưởng chế độ, chính sách theo quy định của pháp luật.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 79,
+        "char_start": 1064,
+        "char_end": 1488,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P05",
+    "document_id": "traffic-law-part1",
+    "page": 5,
+    "char_offset": 1073,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "27947c86ed83a05960908b522ce947d4",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 5,
+      "text": "5. Bộ, cơ quan ngang Bộ, Ủy ban nhân dân các cấp, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ, có hình thức tuyên truyền, phổ biến phù hợp với từng đối tượng.\n\n6. Đơn vị lực lượng vũ trang nhân dân, cơ quan, tổ chức, cơ sở giáo dục có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ cho đối tượng thuộc thẩm quyền quản lý.\n\n7. Thành viên trong gia đình có trách nhiệm tuyên truyền, nhắc nhở thành viên khác chấp hành pháp luật về trật tự, an toàn giao thông đường bộ, sử dụng dây đai an toàn, ghế dành cho trẻ em hoặc có người lớn ngồi cùng trẻ em phía sau khi chở trẻ em dưới 06 tuổi bằng xe gắn máy, xe mô tô.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 80,
+        "char_start": 639,
+        "char_end": 1391,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P06",
+    "document_id": "traffic-law-part1",
+    "page": 6,
+    "char_offset": 883,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "2861c372477031dbc6c3cad79bf66691",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 6,
+      "text": "Điều 7. Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ\n\n1. Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ bao gồm:\n\na) Cơ sở dữ liệu về đăng ký, quản lý xe cơ giới, xe máy chuyên dùng;\n\nb) Cơ sở dữ liệu về đăng kiểm xe cơ giới, xe máy chuyên dùng;\n\nc) Cơ sở dữ liệu về đào tạo, sát hạch, cấp giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ;\n\nd) Cơ sở dữ liệu về người điều khiển xe cơ giới, xe máy chuyên dùng;\n\nđ) Cơ sở dữ liệu về bảo hiểm của chủ xe cơ giới, xe máy chuyên dùng;\n\ne) Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ;\n\ng) Cơ sở dữ liệu về tai nạn giao thông đường bộ;\n\nh) Cơ sở dữ liệu về hành trình của phương tiện giao thông đường bộ, hình ảnh người lái xe theo quy định của Luật này;",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 81,
+        "char_start": 176,
+        "char_end": 959,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P07",
+    "document_id": "traffic-law-part1",
+    "page": 7,
+    "char_offset": 936,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "321f72fb15ca5a232068a5be8600247c",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 7,
+      "text": "e) Thực hiện nội dung hợp tác quốc tế khác theo quy định của pháp luật Việt Nam và điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n3. Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan giúp Chính phủ đàm phán, ký kết điều ước quốc tế, thỏa thuận quốc tế hoặc đề xuất cấp có thẩm quyền ký kết điều ước quốc tế, thỏa thuận quốc tế về trật tự, an toàn giao thông đường bộ; chủ trì, phối hợp với các Bộ, ngành liên quan thực hiện hợp tác quốc tế về trật tự, an toàn giao thông đường bộ.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 82,
+        "char_start": 757,
+        "char_end": 1286,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P08",
+    "document_id": "traffic-law-part1",
+    "page": 8,
+    "char_offset": 1086,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "3f991c4b16e0392fac9de20e981d96bf",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 8,
+      "text": "8. Đưa xe cơ giới, xe máy chuyên dùng không bảo đảm quy định của pháp luật về an toàn kỹ thuật và bảo vệ môi trường, phương tiện khác không đủ điều kiện theo quy định của pháp luật để tham gia giao thông đường bộ.\n\n9. Nhập khẩu, sản xuất, lắp ráp xe cơ giới, xe máy chuyên dùng không bảo đảm quy định của pháp luật về chất lượng an toàn kỹ thuật và bảo vệ môi trường.\n\n10. Cải tạo xe ô tô loại khác thành xe ô tô chở người, trừ cải tạo thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh.\n\n11. Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 83,
+        "char_start": 637,
+        "char_end": 1347,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P09",
+    "document_id": "traffic-law-part1",
+    "page": 9,
+    "char_offset": 1019,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "9308d00226440292caea4d1a017e64c6",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 9,
+      "text": "19. Hủy hoại, làm hư hỏng, làm mất tác dụng thiết bị điều khiển, giám sát giao thông đường bộ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ.\n\n20. Đặt, để chướng ngại vật, vật cản khác trái phép trên đường bộ; rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ; làm rơi vãi đất đá, hàng hóa, vật liệu xây dựng, phế thải trên đường bộ; đổ, xả thải, làm rơi vãi hóa chất, chất thải gây mất an toàn giao thông đường bộ.\n\n21. Cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 84,
+        "char_start": 801,
+        "char_end": 1413,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  },
+  {
+    "sample_id": "P10",
+    "document_id": "traffic-law-part1",
+    "page": 10,
+    "char_offset": 1013,
+    "strategy": "C",
+    "chunk": {
+      "chunk_id": "e0d6e6d7f23b212371d6ab55ee1f0b4e",
+      "document_id": "traffic-law-part1",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/36-2024-qh15.pdf",
+      "page": 10,
+      "text": "27. Điều khiển vật thể bay, tàu bay không người lái, phương tiện bay siêu nhẹ hoạt động trong phạm vi khổ giới hạn đường bộ gây cản trở hoặc nguy cơ mất an toàn cho người, phương tiện tham gia giao thông đường bộ, trừ tàu bay không người lái, phương tiện bay siêu nhẹ được cấp phép bay.\n\n28. Hành vi khác vi phạm quy tắc giao thông đường bộ quy định tại Chương II của Luật này.",
+      "metadata": {
+        "section": "I",
+        "law_id": "36/2024/QH15",
+        "version": "original-2024",
+        "language": "vi",
+        "page_offset": 0,
+        "printed_page": 85,
+        "char_start": 663,
+        "char_end": 1040,
+        "chunk_method": "paragraph-800"
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": "",
+    "review_status": "pending_human"
+  }
+]

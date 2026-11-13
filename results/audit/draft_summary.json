@@ -1,0 +1,50 @@
+[
+  {
+    "strategy": "A",
+    "coherence_ai_mean": 0.9,
+    "coherence_n": 10,
+    "metadata_auto_ai_correct": 15,
+    "metadata_n": 15,
+    "test_filter_compliant": 1,
+    "test_filter_n": 3,
+    "grounding_ai_distribution": {
+      "0": 0,
+      "1": 1,
+      "2": 4
+    },
+    "grounding_ai_mean": 1.8,
+    "manual_status": "pending_human"
+  },
+  {
+    "strategy": "B",
+    "coherence_ai_mean": 1.5,
+    "coherence_n": 10,
+    "metadata_auto_ai_correct": 15,
+    "metadata_n": 15,
+    "test_filter_compliant": 1,
+    "test_filter_n": 3,
+    "grounding_ai_distribution": {
+      "0": 1,
+      "1": 0,
+      "2": 4
+    },
+    "grounding_ai_mean": 1.6,
+    "manual_status": "pending_human"
+  },
+  {
+    "strategy": "C",
+    "coherence_ai_mean": 1.5,
+    "coherence_n": 10,
+    "metadata_auto_ai_correct": 15,
+    "metadata_n": 15,
+    "test_filter_compliant": 3,
+    "test_filter_n": 3,
+    "grounding_ai_distribution": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "grounding_ai_mean": 2.0,
+    "manual_status": "pending_human"
+  }
+]

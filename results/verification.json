@@ -1,0 +1,17 @@
+{
+  "technical_artifacts_consistent": true,
+  "queries": 60,
+  "retrieved_records": 180,
+  "chosen_on_dev_before_test": "A",
+  "unfiltered_B_C_identical": true,
+  "manual_audit_status": "human_verified",
+  "evidence_human_verified": true,
+  "local_lab_artifacts_complete": true,
+  "ready_for_full_lab_submission": false,
+  "remaining_external_steps": [
+    "final commit",
+    "push completed work",
+    "submit repo URL through class channel"
+  ],
+  "external_submission_status": "Student must verify repo access, create final commit and submit repo URL through class channel."
+}

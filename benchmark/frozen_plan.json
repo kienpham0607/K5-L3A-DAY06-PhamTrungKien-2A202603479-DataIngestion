@@ -1,0 +1,74 @@
+{
+  "frozen_at_utc": "2026-11-13T14:00:57.243280+00:00",
+  "input_sha256": {
+    "starter\\config.json": "6cfde5f6dd3b3b671e4a5e95b120295eb6e248f8aa1b7942421d81d63432653b",
+    "data\\manifest.json": "1c54a37e098626943b75e432483679740ef738adbe02b06d435b2e2a49a293f0",
+    "benchmark\\questions.json": "46e089d934abb0dd3c743fe81d10520d7e9c714c7f56ab1a2d3ef88fd28c6159"
+  },
+  "selection_rule": "Highest dev Evidence Hit@3 count, then dev Hit@1 count, then fewer indexed chunks, then alphabetical strategy ID. No test labels or test scores used.",
+  "audit_rule": "First 10 physical content pages sorted by document_id then page; anchor at floor(normalized page length/2); choose earliest char_start chunk covering anchor. Same positions for A/B/C.",
+  "coherence_positions": [
+    {
+      "sample_id": "P01",
+      "document_id": "traffic-law-part1",
+      "page": 1,
+      "char_offset": 912
+    },
+    {
+      "sample_id": "P02",
+      "document_id": "traffic-law-part1",
+      "page": 2,
+      "char_offset": 1054
+    },
+    {
+      "sample_id": "P03",
+      "document_id": "traffic-law-part1",
+      "page": 3,
+      "char_offset": 1014
+    },
+    {
+      "sample_id": "P04",
+      "document_id": "traffic-law-part1",
+      "page": 4,
+      "char_offset": 1229
+    },
+    {
+      "sample_id": "P05",
+      "document_id": "traffic-law-part1",
+      "page": 5,
+      "char_offset": 1073
+    },
+    {
+      "sample_id": "P06",
+      "document_id": "traffic-law-part1",
+      "page": 6,
+      "char_offset": 883
+    },
+    {
+      "sample_id": "P07",
+      "document_id": "traffic-law-part1",
+      "page": 7,
+      "char_offset": 936
+    },
+    {
+      "sample_id": "P08",
+      "document_id": "traffic-law-part1",
+      "page": 8,
+      "char_offset": 1086
+    },
+    {
+      "sample_id": "P09",
+      "document_id": "traffic-law-part1",
+      "page": 9,
+      "char_offset": 1019
+    },
+    {
+      "sample_id": "P10",
+      "document_id": "traffic-law-part1",
+      "page": 10,
+      "char_offset": 1013
+    }
+  ],
+  "split_method": "Q01-Q15 dev; Q16-Q20 test. Topic overlap exists within one law. Authored before retrieval. Test answers known during benchmark design, test retrieval scores hidden until dev choice saved.",
+  "human_audit_status": "AI-authored evidence and draft reviews; student must independently verify and sign manual labels."
+}
